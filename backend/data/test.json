@@ -1,0 +1,5062 @@
+[
+  {
+    "id": 18924850,
+    "name": "Plaza cross",
+    "duration": {
+      "start": "2022-11-29T18:30:00.000Z",
+      "end": "2022-11-29T19:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-22T20:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18948592,
+    "name": "Coreflex soft",
+    "duration": {
+      "start": "2022-11-30T08:00:00.000Z",
+      "end": "2022-11-30T09:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-23T09:30:00.000Z",
+    "slotsLeft": 80
+  },
+  {
+    "id": 18924321,
+    "name": "Spin spurt",
+    "duration": {
+      "start": "2022-11-30T09:00:00.000Z",
+      "end": "2022-11-30T10:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-23T10:30:00.000Z",
+    "slotsLeft": 16
+  },
+  {
+    "id": 18977593,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-11-30T09:30:00.000Z",
+      "end": "2022-11-30T13:45:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-23T14:15:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18924359,
+    "name": "Skivstång",
+    "duration": {
+      "start": "2022-11-30T10:00:00.000Z",
+      "end": "2022-11-30T11:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-23T11:30:00.000Z",
+    "slotsLeft": 39
+  },
+  {
+    "id": 19068735,
+    "name": "Pass i gymmet",
+    "duration": {
+      "start": "2022-11-30T14:00:00.000Z",
+      "end": "2022-11-30T15:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-23T15:30:00.000Z",
+    "slotsLeft": 2
+  },
+  {
+    "id": 18924375,
+    "name": "Coreflex",
+    "duration": {
+      "start": "2022-11-30T15:00:00.000Z",
+      "end": "2022-11-30T16:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-23T16:30:00.000Z",
+    "slotsLeft": 89
+  },
+  {
+    "id": 18924867,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-11-30T16:00:00.000Z",
+      "end": "2022-11-30T17:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-23T17:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18924394,
+    "name": "Step",
+    "duration": {
+      "start": "2022-11-30T16:00:00.000Z",
+      "end": "2022-11-30T17:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-23T17:30:00.000Z",
+    "slotsLeft": 39
+  },
+  {
+    "id": 18924434,
+    "name": "Yoga",
+    "duration": {
+      "start": "2022-11-30T16:30:00.000Z",
+      "end": "2022-11-30T17:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-23T18:00:00.000Z",
+    "slotsLeft": 25
+  },
+  {
+    "id": 18954393,
+    "name": "Gruppintroduktion gym",
+    "duration": {
+      "start": "2022-11-30T17:00:00.000Z",
+      "end": "2022-11-30T18:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-23T18:30:00.000Z",
+    "slotsLeft": 2
+  },
+  {
+    "id": 18924881,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-11-30T17:00:00.000Z",
+      "end": "2022-11-30T18:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-23T18:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18924453,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-11-30T17:00:00.000Z",
+      "end": "2022-11-30T18:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-23T18:30:00.000Z",
+    "slotsLeft": 90
+  },
+  {
+    "id": 18924415,
+    "name": "Spin intervall",
+    "duration": {
+      "start": "2022-11-30T17:00:00.000Z",
+      "end": "2022-11-30T18:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-23T18:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18924472,
+    "name": "Skivstång soft",
+    "duration": {
+      "start": "2022-11-30T18:00:00.000Z",
+      "end": "2022-11-30T19:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-23T19:30:00.000Z",
+    "slotsLeft": 7
+  },
+  {
+    "id": 18928501,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-11-29T18:30:00.000Z",
+      "end": "2022-11-29T19:00:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-22T19:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18922979,
+    "name": "Skivstång soft",
+    "duration": {
+      "start": "2022-11-30T10:30:00.000Z",
+      "end": "2022-11-30T11:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-23T12:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 19034439,
+    "name": "Yoga soft",
+    "duration": {
+      "start": "2022-11-30T12:00:00.000Z",
+      "end": "2022-11-30T13:00:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-23T13:30:00.000Z",
+    "slotsLeft": 17
+  },
+  {
+    "id": 18922999,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-11-30T15:30:00.000Z",
+      "end": "2022-11-30T16:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-23T17:00:00.000Z",
+    "slotsLeft": 13
+  },
+  {
+    "id": 18993597,
+    "name": "Box",
+    "duration": {
+      "start": "2022-11-30T16:30:00.000Z",
+      "end": "2022-11-30T17:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-23T18:00:00.000Z",
+    "slotsLeft": 14
+  },
+  {
+    "id": 18923017,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-11-30T16:30:00.000Z",
+      "end": "2022-11-30T17:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-23T18:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18955244,
+    "name": "Multifys",
+    "duration": {
+      "start": "2022-11-30T17:30:00.000Z",
+      "end": "2022-11-30T18:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-23T19:00:00.000Z",
+    "slotsLeft": 21
+  },
+  {
+    "id": 18923331,
+    "name": "Yoga",
+    "duration": {
+      "start": "2022-11-29T18:30:00.000Z",
+      "end": "2022-11-29T19:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-22T20:00:00.000Z",
+    "slotsLeft": 78
+  },
+  {
+    "id": 19023081,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-11-30T07:00:00.000Z",
+      "end": "2022-11-30T09:00:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-23T09:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18923350,
+    "name": "Jympa soft",
+    "duration": {
+      "start": "2022-11-30T10:00:00.000Z",
+      "end": "2022-11-30T11:00:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-23T11:30:00.000Z",
+    "slotsLeft": 65
+  },
+  {
+    "id": 18923409,
+    "name": "Jympa soft",
+    "duration": {
+      "start": "2022-11-30T15:30:00.000Z",
+      "end": "2022-11-30T16:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-23T17:00:00.000Z",
+    "slotsLeft": 77
+  },
+  {
+    "id": 18923369,
+    "name": "Dans soft",
+    "duration": {
+      "start": "2022-11-30T16:30:00.000Z",
+      "end": "2022-11-30T17:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-23T18:00:00.000Z",
+    "slotsLeft": 74
+  },
+  {
+    "id": 19027484,
+    "name": "Pass i gymmet",
+    "duration": {
+      "start": "2022-11-30T16:30:00.000Z",
+      "end": "2022-11-30T17:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-23T18:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18923390,
+    "name": "Cirkelfys",
+    "duration": {
+      "start": "2022-11-30T17:30:00.000Z",
+      "end": "2022-11-30T18:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-23T19:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18928513,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-11-30T18:15:00.000Z",
+      "end": "2022-11-30T19:15:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-23T19:45:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18978697,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-11-29T18:30:00.000Z",
+      "end": "2022-11-29T19:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-22T20:00:00.000Z",
+    "slotsLeft": 140
+  },
+  {
+    "id": 19021621,
+    "name": "Träningsinspiratör tonår",
+    "duration": {
+      "start": "2022-11-29T18:30:00.000Z",
+      "end": "2022-11-29T19:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-22T19:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18927140,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-11-29T19:00:00.000Z",
+      "end": "2022-11-29T20:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-22T20:30:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18973203,
+    "name": "Träningsinspiratör tonår",
+    "duration": {
+      "start": "2022-11-29T19:00:00.000Z",
+      "end": "2022-11-29T21:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-22T21:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18930625,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-11-29T20:00:00.000Z",
+      "end": "2022-11-29T20:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-22T21:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18925704,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-11-30T05:30:00.000Z",
+      "end": "2022-11-30T06:15:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-23T06:45:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 19020532,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-11-30T06:30:00.000Z",
+      "end": "2022-11-30T07:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-23T08:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 19020542,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-11-30T08:00:00.000Z",
+      "end": "2022-11-30T09:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-23T09:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18955199,
+    "name": "Multifys soft",
+    "duration": {
+      "start": "2022-11-30T09:30:00.000Z",
+      "end": "2022-11-30T10:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-23T11:00:00.000Z",
+    "slotsLeft": 58
+  },
+  {
+    "id": 19640569,
+    "name": "Barnpassning",
+    "duration": {
+      "start": "2022-11-30T10:30:00.000Z",
+      "end": "2022-11-30T12:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-23T12:30:00.000Z",
+    "slotsLeft": 8
+  },
+  {
+    "id": 18925727,
+    "name": "Spin intervall",
+    "duration": {
+      "start": "2022-11-30T10:30:00.000Z",
+      "end": "2022-11-30T11:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-23T12:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18928260,
+    "name": "Yoga soft",
+    "duration": {
+      "start": "2022-11-30T10:30:00.000Z",
+      "end": "2022-11-30T11:45:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-23T12:15:00.000Z",
+    "slotsLeft": 143
+  },
+  {
+    "id": 19069533,
+    "name": "Pass i gymmet",
+    "duration": {
+      "start": "2022-11-30T11:00:00.000Z",
+      "end": "2022-11-30T12:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-23T12:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 19069534,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-11-30T13:00:00.000Z",
+      "end": "2022-11-30T14:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-23T14:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18925747,
+    "name": "Jympa intensiv",
+    "duration": {
+      "start": "2022-11-30T15:30:00.000Z",
+      "end": "2022-11-30T16:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-23T17:00:00.000Z",
+    "slotsLeft": 135
+  },
+  {
+    "id": 18996626,
+    "name": "Löpning distans",
+    "duration": {
+      "start": "2022-11-30T16:00:00.000Z",
+      "end": "2022-11-30T17:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-23T17:30:00.000Z",
+    "slotsLeft": 26
+  },
+  {
+    "id": 18925766,
+    "name": "Skivstång soft",
+    "duration": {
+      "start": "2022-11-30T16:00:00.000Z",
+      "end": "2022-11-30T17:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-23T17:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18925788,
+    "name": "HIT",
+    "duration": {
+      "start": "2022-11-30T16:30:00.000Z",
+      "end": "2022-11-30T17:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-23T18:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18925809,
+    "name": "Spin spurt",
+    "duration": {
+      "start": "2022-11-30T16:30:00.000Z",
+      "end": "2022-11-30T17:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-23T18:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18925827,
+    "name": "Coreflex",
+    "duration": {
+      "start": "2022-11-30T17:00:00.000Z",
+      "end": "2022-11-30T18:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-23T18:30:00.000Z",
+    "slotsLeft": 15
+  },
+  {
+    "id": 18925846,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-11-30T17:30:00.000Z",
+      "end": "2022-11-30T18:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-23T19:00:00.000Z",
+    "slotsLeft": 140
+  },
+  {
+    "id": 18925865,
+    "name": "Cirkelfys",
+    "duration": {
+      "start": "2022-11-30T18:00:00.000Z",
+      "end": "2022-11-30T19:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-23T19:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18967909,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-11-30T18:00:00.000Z",
+      "end": "2022-11-30T19:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-23T19:30:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18925884,
+    "name": "Spin intervall",
+    "duration": {
+      "start": "2022-11-30T18:00:00.000Z",
+      "end": "2022-11-30T19:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-23T19:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18921416,
+    "name": "Yoga play",
+    "duration": {
+      "start": "2022-11-29T18:30:00.000Z",
+      "end": "2022-11-29T19:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-22T20:00:00.000Z",
+    "slotsLeft": 30
+  },
+  {
+    "id": 18925131,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-11-29T19:00:00.000Z",
+      "end": "2022-11-29T20:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-22T20:30:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18925140,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-11-29T20:00:00.000Z",
+      "end": "2022-11-29T20:45:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-22T21:15:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18969312,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-11-30T05:00:00.000Z",
+      "end": "2022-11-30T07:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-23T07:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18945304,
+    "name": "Spin intervall",
+    "duration": {
+      "start": "2022-11-30T06:00:00.000Z",
+      "end": "2022-11-30T06:45:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-23T07:15:00.000Z",
+    "slotsLeft": 22
+  },
+  {
+    "id": 18969322,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-11-30T07:00:00.000Z",
+      "end": "2022-11-30T08:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-23T08:30:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18951121,
+    "name": "Mammapower",
+    "duration": {
+      "start": "2022-11-30T08:30:00.000Z",
+      "end": "2022-11-30T09:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-23T10:00:00.000Z",
+    "slotsLeft": 11
+  },
+  {
+    "id": 18921453,
+    "name": "Power hour soft",
+    "duration": {
+      "start": "2022-11-30T09:30:00.000Z",
+      "end": "2022-11-30T10:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-23T11:00:00.000Z",
+    "slotsLeft": 6
+  },
+  {
+    "id": 18969381,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-11-30T10:00:00.000Z",
+      "end": "2022-11-30T11:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-23T11:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18944681,
+    "name": "Spin distans watt",
+    "duration": {
+      "start": "2022-11-30T10:30:00.000Z",
+      "end": "2022-11-30T11:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-23T12:00:00.000Z",
+    "slotsLeft": 14
+  },
+  {
+    "id": 19027673,
+    "name": "Pass i gymmet",
+    "duration": {
+      "start": "2022-11-30T11:00:00.000Z",
+      "end": "2022-11-30T11:35:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-23T12:05:00.000Z",
+    "slotsLeft": 2
+  },
+  {
+    "id": 19003476,
+    "name": "Träningskompis tonår",
+    "duration": {
+      "start": "2022-11-30T14:30:00.000Z",
+      "end": "2022-11-30T15:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-10-31T06:00:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18973183,
+    "name": "Träningsinspiratör tonår",
+    "duration": {
+      "start": "2022-11-30T15:30:00.000Z",
+      "end": "2022-11-30T16:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-23T17:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18921474,
+    "name": "Multifys",
+    "duration": {
+      "start": "2022-11-30T16:00:00.000Z",
+      "end": "2022-11-30T17:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-23T17:30:00.000Z",
+    "slotsLeft": 99
+  },
+  {
+    "id": 18925152,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-11-30T16:00:00.000Z",
+      "end": "2022-11-30T17:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-23T17:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18921493,
+    "name": "Coreflex",
+    "duration": {
+      "start": "2022-11-30T16:30:00.000Z",
+      "end": "2022-11-30T17:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-23T18:00:00.000Z",
+    "slotsLeft": 41
+  },
+  {
+    "id": 18970579,
+    "name": "Spin intervall",
+    "duration": {
+      "start": "2022-11-30T16:30:00.000Z",
+      "end": "2022-11-30T17:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-23T18:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18925162,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-11-30T17:00:00.000Z",
+      "end": "2022-11-30T18:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-23T18:30:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18921518,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-11-30T17:00:00.000Z",
+      "end": "2022-11-30T18:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-23T18:30:00.000Z",
+    "slotsLeft": 100
+  },
+  {
+    "id": 19027580,
+    "name": "Pass i gymmet",
+    "duration": {
+      "start": "2022-11-30T17:00:00.000Z",
+      "end": "2022-11-30T18:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-23T18:30:00.000Z",
+    "slotsLeft": 2
+  },
+  {
+    "id": 18921536,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-11-30T17:30:00.000Z",
+      "end": "2022-11-30T18:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-23T19:00:00.000Z",
+    "slotsLeft": 13
+  },
+  {
+    "id": 18921556,
+    "name": "Cirkelfys",
+    "duration": {
+      "start": "2022-11-30T18:00:00.000Z",
+      "end": "2022-11-30T19:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-23T19:30:00.000Z",
+    "slotsLeft": 31
+  },
+  {
+    "id": 18924893,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-11-30T19:00:00.000Z",
+      "end": "2022-11-30T20:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-23T20:30:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18924907,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-11-30T20:00:00.000Z",
+      "end": "2022-11-30T20:45:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-23T21:15:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18977620,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-01T07:00:00.000Z",
+      "end": "2022-12-01T08:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-24T08:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18924492,
+    "name": "Jympa soft",
+    "duration": {
+      "start": "2022-12-01T09:00:00.000Z",
+      "end": "2022-12-01T10:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-24T10:30:00.000Z",
+    "slotsLeft": 88
+  },
+  {
+    "id": 18977608,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-01T09:00:00.000Z",
+      "end": "2022-12-01T11:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-24T12:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18933664,
+    "name": "Spin intervall",
+    "duration": {
+      "start": "2022-12-01T10:00:00.000Z",
+      "end": "2022-12-01T11:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-24T11:30:00.000Z",
+    "slotsLeft": 4
+  },
+  {
+    "id": 18924939,
+    "name": "Gym enkel",
+    "duration": {
+      "start": "2022-12-01T13:00:00.000Z",
+      "end": "2022-12-01T15:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": null,
+    "slotsLeft": 0
+  },
+  {
+    "id": 18978397,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-01T16:00:00.000Z",
+      "end": "2022-12-01T17:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-24T17:30:00.000Z",
+    "slotsLeft": 90
+  },
+  {
+    "id": 18924513,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-01T16:30:00.000Z",
+      "end": "2022-12-01T17:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-24T18:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18924532,
+    "name": "Dans fusion",
+    "duration": {
+      "start": "2022-12-01T17:00:00.000Z",
+      "end": "2022-12-01T18:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-24T18:30:00.000Z",
+    "slotsLeft": 94
+  },
+  {
+    "id": 18924549,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-01T17:30:00.000Z",
+      "end": "2022-12-01T18:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-24T19:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18924567,
+    "name": "Jympa intensiv",
+    "duration": {
+      "start": "2022-12-01T18:00:00.000Z",
+      "end": "2022-12-01T19:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-24T19:30:00.000Z",
+    "slotsLeft": 94
+  },
+  {
+    "id": 18923052,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-01T06:00:00.000Z",
+      "end": "2022-12-01T07:00:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-24T07:30:00.000Z",
+    "slotsLeft": 15
+  },
+  {
+    "id": 18957098,
+    "name": "Multifys",
+    "duration": {
+      "start": "2022-12-01T10:30:00.000Z",
+      "end": "2022-12-01T11:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-24T12:00:00.000Z",
+    "slotsLeft": 17
+  },
+  {
+    "id": 19034441,
+    "name": "Spin spurt",
+    "duration": {
+      "start": "2022-12-01T15:00:00.000Z",
+      "end": "2022-12-01T16:00:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-24T16:30:00.000Z",
+    "slotsLeft": 11
+  },
+  {
+    "id": 18923071,
+    "name": "Skivstång soft",
+    "duration": {
+      "start": "2022-12-01T15:30:00.000Z",
+      "end": "2022-12-01T16:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-24T17:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18923090,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-01T16:30:00.000Z",
+      "end": "2022-12-01T17:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-24T18:00:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 19058764,
+    "name": "Box",
+    "duration": {
+      "start": "2022-12-01T17:30:00.000Z",
+      "end": "2022-12-01T18:45:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-24T19:15:00.000Z",
+    "slotsLeft": 21
+  },
+  {
+    "id": 18973282,
+    "name": "Träningsinspiratör tonår",
+    "duration": {
+      "start": "2022-12-01T18:00:00.000Z",
+      "end": "2022-12-01T20:00:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-24T20:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18930779,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-11-30T19:15:00.000Z",
+      "end": "2022-11-30T20:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-23T21:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 19023089,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-01T07:00:00.000Z",
+      "end": "2022-12-01T09:00:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-24T09:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18951968,
+    "name": "Seniorklubben",
+    "duration": {
+      "start": "2022-12-01T08:00:00.000Z",
+      "end": "2022-12-01T09:00:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-24T09:30:00.000Z",
+    "slotsLeft": 42
+  },
+  {
+    "id": 18977328,
+    "name": "Cirkelfys soft",
+    "duration": {
+      "start": "2022-12-01T09:30:00.000Z",
+      "end": "2022-12-01T10:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-24T11:00:00.000Z",
+    "slotsLeft": 21
+  },
+  {
+    "id": 18966845,
+    "name": "Yoga",
+    "duration": {
+      "start": "2022-12-01T11:00:00.000Z",
+      "end": "2022-12-01T12:15:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-24T12:45:00.000Z",
+    "slotsLeft": 76
+  },
+  {
+    "id": 19072889,
+    "name": "Coreflex",
+    "duration": {
+      "start": "2022-12-01T15:30:00.000Z",
+      "end": "2022-12-01T16:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-24T17:00:00.000Z",
+    "slotsLeft": 82
+  },
+  {
+    "id": 18923428,
+    "name": "Skivstång soft",
+    "duration": {
+      "start": "2022-12-01T16:30:00.000Z",
+      "end": "2022-12-01T17:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-24T18:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18923447,
+    "name": "Step",
+    "duration": {
+      "start": "2022-12-01T17:30:00.000Z",
+      "end": "2022-12-01T18:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-24T19:00:00.000Z",
+    "slotsLeft": 40
+  },
+  {
+    "id": 18983679,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-11-30T19:00:00.000Z",
+      "end": "2022-11-30T20:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-23T21:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18947284,
+    "name": "Yoga",
+    "duration": {
+      "start": "2022-11-30T19:00:00.000Z",
+      "end": "2022-11-30T20:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-23T20:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 19566945,
+    "name": "Pass i gymmet",
+    "duration": {
+      "start": "2022-12-01T05:30:00.000Z",
+      "end": "2022-12-01T06:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-24T07:00:00.000Z",
+    "slotsLeft": 3
+  },
+  {
+    "id": 18945936,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-01T05:30:00.000Z",
+      "end": "2022-12-01T06:15:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-24T06:45:00.000Z",
+    "slotsLeft": 28
+  },
+  {
+    "id": 19567023,
+    "name": "Pass i gymmet",
+    "duration": {
+      "start": "2022-12-01T08:00:00.000Z",
+      "end": "2022-12-01T09:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-24T09:30:00.000Z",
+    "slotsLeft": 5
+  },
+  {
+    "id": 18925900,
+    "name": "Spin soft",
+    "duration": {
+      "start": "2022-12-01T08:30:00.000Z",
+      "end": "2022-12-01T09:20:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-24T09:50:00.000Z",
+    "slotsLeft": 3
+  },
+  {
+    "id": 18925917,
+    "name": "Coreflex soft",
+    "duration": {
+      "start": "2022-12-01T09:30:00.000Z",
+      "end": "2022-12-01T10:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-24T11:00:00.000Z",
+    "slotsLeft": 137
+  },
+  {
+    "id": 18925938,
+    "name": "Skivstång",
+    "duration": {
+      "start": "2022-12-01T10:30:00.000Z",
+      "end": "2022-12-01T11:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-24T12:00:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18851977,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-01T10:30:00.000Z",
+      "end": "2022-12-01T11:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-24T12:00:00.000Z",
+    "slotsLeft": 22
+  },
+  {
+    "id": 18925956,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-01T11:00:00.000Z",
+      "end": "2022-12-01T12:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-24T12:30:00.000Z",
+    "slotsLeft": 141
+  },
+  {
+    "id": 19567108,
+    "name": "Pass i gymmet",
+    "duration": {
+      "start": "2022-12-01T11:00:00.000Z",
+      "end": "2022-12-01T12:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-24T12:30:00.000Z",
+    "slotsLeft": 4
+  },
+  {
+    "id": 18955208,
+    "name": "Multifys soft",
+    "duration": {
+      "start": "2022-12-01T15:00:00.000Z",
+      "end": "2022-12-01T16:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-24T16:30:00.000Z",
+    "slotsLeft": 51
+  },
+  {
+    "id": 18925975,
+    "name": "Dans soft",
+    "duration": {
+      "start": "2022-12-01T15:30:00.000Z",
+      "end": "2022-12-01T16:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-24T17:00:00.000Z",
+    "slotsLeft": 145
+  },
+  {
+    "id": 18925994,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-01T16:00:00.000Z",
+      "end": "2022-12-01T17:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-24T17:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18954208,
+    "name": "Step",
+    "duration": {
+      "start": "2022-12-01T16:00:00.000Z",
+      "end": "2022-12-01T17:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-24T17:30:00.000Z",
+    "slotsLeft": 30
+  },
+  {
+    "id": 18973332,
+    "name": "Träningsinspiratör tonår",
+    "duration": {
+      "start": "2022-12-01T16:00:00.000Z",
+      "end": "2022-12-01T18:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-24T18:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18926013,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-01T16:30:00.000Z",
+      "end": "2022-12-01T17:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-24T18:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18926032,
+    "name": "Cirkelfys",
+    "duration": {
+      "start": "2022-12-01T17:00:00.000Z",
+      "end": "2022-12-01T18:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-24T18:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18926051,
+    "name": "Multifys",
+    "duration": {
+      "start": "2022-12-01T17:30:00.000Z",
+      "end": "2022-12-01T18:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-24T19:00:00.000Z",
+    "slotsLeft": 72
+  },
+  {
+    "id": 18955035,
+    "name": "Spin spurt watt",
+    "duration": {
+      "start": "2022-12-01T18:00:00.000Z",
+      "end": "2022-12-01T19:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-24T19:30:00.000Z",
+    "slotsLeft": 26
+  },
+  {
+    "id": 18925171,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-11-30T18:30:00.000Z",
+      "end": "2022-11-30T19:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-23T20:00:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18925180,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-11-30T19:30:00.000Z",
+      "end": "2022-11-30T20:45:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-23T21:15:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18921574,
+    "name": "Coreflex soft",
+    "duration": {
+      "start": "2022-12-01T08:00:00.000Z",
+      "end": "2022-12-01T09:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-24T09:30:00.000Z",
+    "slotsLeft": 101
+  },
+  {
+    "id": 18946709,
+    "name": "Seniorklubben",
+    "duration": {
+      "start": "2022-12-01T08:30:00.000Z",
+      "end": "2022-12-01T09:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-24T10:00:00.000Z",
+    "slotsLeft": 28
+  },
+  {
+    "id": 18921631,
+    "name": "Skivstång",
+    "duration": {
+      "start": "2022-12-01T09:00:00.000Z",
+      "end": "2022-12-01T10:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-24T10:30:00.000Z",
+    "slotsLeft": 36
+  },
+  {
+    "id": 18921613,
+    "name": "Spin soft",
+    "duration": {
+      "start": "2022-12-01T09:00:00.000Z",
+      "end": "2022-12-01T09:50:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-24T10:20:00.000Z",
+    "slotsLeft": 20
+  },
+  {
+    "id": 19640293,
+    "name": "Barnpassning",
+    "duration": {
+      "start": "2022-12-01T09:30:00.000Z",
+      "end": "2022-12-01T11:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-24T11:30:00.000Z",
+    "slotsLeft": 4
+  },
+  {
+    "id": 18921649,
+    "name": "Enkelspin",
+    "duration": {
+      "start": "2022-12-01T15:30:00.000Z",
+      "end": "2022-12-01T16:15:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-24T16:45:00.000Z",
+    "slotsLeft": 13
+  },
+  {
+    "id": 18973305,
+    "name": "Träningsinspiratör tonår",
+    "duration": {
+      "start": "2022-12-01T15:30:00.000Z",
+      "end": "2022-12-01T17:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-24T18:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18921668,
+    "name": "Power hour",
+    "duration": {
+      "start": "2022-12-01T16:00:00.000Z",
+      "end": "2022-12-01T17:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-24T17:30:00.000Z",
+    "slotsLeft": 27
+  },
+  {
+    "id": 19027512,
+    "name": "Pass i gymmet",
+    "duration": {
+      "start": "2022-12-01T16:30:00.000Z",
+      "end": "2022-12-01T17:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-24T18:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18921687,
+    "name": "Jympa intensiv",
+    "duration": {
+      "start": "2022-12-01T17:00:00.000Z",
+      "end": "2022-12-01T18:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-24T18:30:00.000Z",
+    "slotsLeft": 101
+  },
+  {
+    "id": 18965013,
+    "name": "Spin distans watt",
+    "duration": {
+      "start": "2022-12-01T17:00:00.000Z",
+      "end": "2022-12-01T18:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-24T18:30:00.000Z",
+    "slotsLeft": 11
+  },
+  {
+    "id": 18921702,
+    "name": "Skivstång",
+    "duration": {
+      "start": "2022-12-01T18:00:00.000Z",
+      "end": "2022-12-01T19:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-24T19:30:00.000Z",
+    "slotsLeft": 34
+  },
+  {
+    "id": 18924921,
+    "name": "Plaza cross",
+    "duration": {
+      "start": "2022-12-01T18:30:00.000Z",
+      "end": "2022-12-01T19:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-24T20:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18977634,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-02T06:00:00.000Z",
+      "end": "2022-12-02T08:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-25T08:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18954330,
+    "name": "Cirkelfys soft",
+    "duration": {
+      "start": "2022-12-02T08:00:00.000Z",
+      "end": "2022-12-02T09:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-25T09:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18954345,
+    "name": "HIT",
+    "duration": {
+      "start": "2022-12-02T10:00:00.000Z",
+      "end": "2022-12-02T11:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-25T11:30:00.000Z",
+    "slotsLeft": 28
+  },
+  {
+    "id": 19639774,
+    "name": "Barnpassning",
+    "duration": {
+      "start": "2022-12-02T11:00:00.000Z",
+      "end": "2022-12-02T12:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-25T12:30:00.000Z",
+    "slotsLeft": 6
+  },
+  {
+    "id": 19030741,
+    "name": "Bokad lokal",
+    "duration": {
+      "start": "2022-12-02T12:00:00.000Z",
+      "end": "2022-12-02T15:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": null,
+    "slotsLeft": 0
+  },
+  {
+    "id": 18924584,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-02T15:00:00.000Z",
+      "end": "2022-12-02T16:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-25T16:30:00.000Z",
+    "slotsLeft": 93
+  },
+  {
+    "id": 18925012,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-02T15:00:00.000Z",
+      "end": "2022-12-02T16:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-25T16:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18924995,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-02T16:00:00.000Z",
+      "end": "2022-12-02T17:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-25T17:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18924603,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-02T16:00:00.000Z",
+      "end": "2022-12-02T17:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-25T17:30:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18926483,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-02T17:00:00.000Z",
+      "end": "2022-12-02T18:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-25T18:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 19668976,
+    "name": "Skivstång",
+    "duration": {
+      "start": "2022-12-02T10:30:00.000Z",
+      "end": "2022-12-02T11:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-25T12:00:00.000Z",
+    "slotsLeft": 22
+  },
+  {
+    "id": 18923111,
+    "name": "Skivstång soft",
+    "duration": {
+      "start": "2022-12-02T15:00:00.000Z",
+      "end": "2022-12-02T16:00:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-25T16:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18923485,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-02T16:00:00.000Z",
+      "end": "2022-12-02T17:00:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-25T17:30:00.000Z",
+    "slotsLeft": 55
+  },
+  {
+    "id": 18923500,
+    "name": "Cirkelfys",
+    "duration": {
+      "start": "2022-12-02T17:00:00.000Z",
+      "end": "2022-12-02T18:00:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-25T18:30:00.000Z",
+    "slotsLeft": 28
+  },
+  {
+    "id": 18955989,
+    "name": "SkivstångIntervall",
+    "duration": {
+      "start": "2022-12-01T19:00:00.000Z",
+      "end": "2022-12-01T20:15:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-24T20:45:00.000Z",
+    "slotsLeft": 9
+  },
+  {
+    "id": 18926079,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-02T05:30:00.000Z",
+      "end": "2022-12-02T06:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-25T07:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 19023283,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-02T08:00:00.000Z",
+      "end": "2022-12-02T09:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-25T09:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18981384,
+    "name": "Jympa soft",
+    "duration": {
+      "start": "2022-12-02T08:30:00.000Z",
+      "end": "2022-12-02T09:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-25T10:00:00.000Z",
+    "slotsLeft": 144
+  },
+  {
+    "id": 18926099,
+    "name": "Skivstång soft",
+    "duration": {
+      "start": "2022-12-02T09:30:00.000Z",
+      "end": "2022-12-02T10:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-25T11:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 19023291,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-02T09:30:00.000Z",
+      "end": "2022-12-02T11:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-25T12:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 19623702,
+    "name": "Multifys",
+    "duration": {
+      "start": "2022-12-02T10:00:00.000Z",
+      "end": "2022-12-02T11:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-25T11:30:00.000Z",
+    "slotsLeft": 85
+  },
+  {
+    "id": 18943263,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-02T10:30:00.000Z",
+      "end": "2022-12-02T11:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-25T12:00:00.000Z",
+    "slotsLeft": 21
+  },
+  {
+    "id": 18944459,
+    "name": "Cirkelfys",
+    "duration": {
+      "start": "2022-12-02T11:00:00.000Z",
+      "end": "2022-12-02T12:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-25T12:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18926213,
+    "name": "Jympa intensiv",
+    "duration": {
+      "start": "2022-12-02T11:00:00.000Z",
+      "end": "2022-12-02T12:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-25T12:30:00.000Z",
+    "slotsLeft": 147
+  },
+  {
+    "id": 18926119,
+    "name": "HIT",
+    "duration": {
+      "start": "2022-12-02T15:00:00.000Z",
+      "end": "2022-12-02T16:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-25T16:30:00.000Z",
+    "slotsLeft": 14
+  },
+  {
+    "id": 18926138,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-02T15:30:00.000Z",
+      "end": "2022-12-02T16:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-25T17:00:00.000Z",
+    "slotsLeft": 141
+  },
+  {
+    "id": 18926157,
+    "name": "Skivstång",
+    "duration": {
+      "start": "2022-12-02T16:00:00.000Z",
+      "end": "2022-12-02T17:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-25T17:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18926176,
+    "name": "Spin intervall",
+    "duration": {
+      "start": "2022-12-02T16:00:00.000Z",
+      "end": "2022-12-02T17:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-25T17:30:00.000Z",
+    "slotsLeft": 17
+  },
+  {
+    "id": 18983696,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-02T16:00:00.000Z",
+      "end": "2022-12-02T17:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-25T17:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18926194,
+    "name": "Dans fusion",
+    "duration": {
+      "start": "2022-12-02T16:30:00.000Z",
+      "end": "2022-12-02T17:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-25T18:00:00.000Z",
+    "slotsLeft": 142
+  },
+  {
+    "id": 18927178,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-02T17:00:00.000Z",
+      "end": "2022-12-02T18:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-25T18:30:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18930650,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-02T18:00:00.000Z",
+      "end": "2022-12-02T18:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-25T19:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 19671455,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-01T18:30:00.000Z",
+      "end": "2022-12-01T19:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-24T20:00:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 19137726,
+    "name": "Spin intervall",
+    "duration": {
+      "start": "2022-12-02T05:30:00.000Z",
+      "end": "2022-12-02T06:15:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-25T06:45:00.000Z",
+    "slotsLeft": 26
+  },
+  {
+    "id": 18923165,
+    "name": "Seniorklubben",
+    "duration": {
+      "start": "2022-12-02T08:30:00.000Z",
+      "end": "2022-12-02T09:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-25T10:00:00.000Z",
+    "slotsLeft": 34
+  },
+  {
+    "id": 18923184,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-02T10:30:00.000Z",
+      "end": "2022-12-02T11:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-25T12:00:00.000Z",
+    "slotsLeft": 98
+  },
+  {
+    "id": 18851911,
+    "name": "Spin intervall",
+    "duration": {
+      "start": "2022-12-02T10:30:00.000Z",
+      "end": "2022-12-02T11:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-25T12:00:00.000Z",
+    "slotsLeft": 8
+  },
+  {
+    "id": 18923240,
+    "name": "Spin intervall",
+    "duration": {
+      "start": "2022-12-02T14:30:00.000Z",
+      "end": "2022-12-02T15:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-25T16:00:00.000Z",
+    "slotsLeft": 11
+  },
+  {
+    "id": 18923222,
+    "name": "SkivstångIntervall",
+    "duration": {
+      "start": "2022-12-02T15:00:00.000Z",
+      "end": "2022-12-02T16:15:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-25T16:45:00.000Z",
+    "slotsLeft": 35
+  },
+  {
+    "id": 18973161,
+    "name": "Träningsinspiratör tonår",
+    "duration": {
+      "start": "2022-12-02T16:00:00.000Z",
+      "end": "2022-12-02T18:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-25T18:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18956428,
+    "name": "Multifys",
+    "duration": {
+      "start": "2022-12-02T16:15:00.000Z",
+      "end": "2022-12-02T17:15:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-25T17:45:00.000Z",
+    "slotsLeft": 43
+  },
+  {
+    "id": 19004135,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-02T16:30:00.000Z",
+      "end": "2022-12-02T17:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-25T18:00:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18924633,
+    "name": "Familjejympa",
+    "duration": {
+      "start": "2022-12-03T08:30:00.000Z",
+      "end": "2022-12-03T09:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-26T10:00:00.000Z",
+    "slotsLeft": 7
+  },
+  {
+    "id": 19027524,
+    "name": "Pass i gymmet",
+    "duration": {
+      "start": "2022-12-03T08:30:00.000Z",
+      "end": "2022-12-03T09:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-26T10:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18983796,
+    "name": "Jympa intensiv",
+    "duration": {
+      "start": "2022-12-03T09:00:00.000Z",
+      "end": "2022-12-03T10:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-26T10:30:00.000Z",
+    "slotsLeft": 73
+  },
+  {
+    "id": 19639909,
+    "name": "Barnpassning",
+    "duration": {
+      "start": "2022-12-03T09:30:00.000Z",
+      "end": "2022-12-03T11:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-26T12:00:00.000Z",
+    "slotsLeft": 5
+  },
+  {
+    "id": 18924660,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-03T09:30:00.000Z",
+      "end": "2022-12-03T10:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-26T11:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 19587901,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-03T11:00:00.000Z",
+      "end": "2022-12-03T12:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-26T12:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 19062623,
+    "name": "Temapass",
+    "duration": {
+      "start": "2022-12-03T11:00:00.000Z",
+      "end": "2022-12-03T12:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-26T12:30:00.000Z",
+    "slotsLeft": 15
+  },
+  {
+    "id": 19587977,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-03T12:30:00.000Z",
+      "end": "2022-12-03T13:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-26T14:00:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18924678,
+    "name": "Skivstång",
+    "duration": {
+      "start": "2022-12-03T13:30:00.000Z",
+      "end": "2022-12-03T14:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-26T15:00:00.000Z",
+    "slotsLeft": 36
+  },
+  {
+    "id": 19587999,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-03T13:30:00.000Z",
+      "end": "2022-12-03T16:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-26T17:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 19524768,
+    "name": "Temapass",
+    "duration": {
+      "start": "2022-12-03T14:30:00.000Z",
+      "end": "2022-12-03T16:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-26T16:30:00.000Z",
+    "slotsLeft": 39
+  },
+  {
+    "id": 18981252,
+    "name": "Yoga soft",
+    "duration": {
+      "start": "2022-12-03T08:30:00.000Z",
+      "end": "2022-12-03T09:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-26T10:00:00.000Z",
+    "slotsLeft": 22
+  },
+  {
+    "id": 19034429,
+    "name": "Spin intervall",
+    "duration": {
+      "start": "2022-12-03T10:00:00.000Z",
+      "end": "2022-12-03T11:00:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-26T11:30:00.000Z",
+    "slotsLeft": 3
+  },
+  {
+    "id": 18923522,
+    "name": "Yoga",
+    "duration": {
+      "start": "2022-12-03T08:30:00.000Z",
+      "end": "2022-12-03T09:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-26T10:00:00.000Z",
+    "slotsLeft": 60
+  },
+  {
+    "id": 18923559,
+    "name": "Jympa soft",
+    "duration": {
+      "start": "2022-12-03T09:30:00.000Z",
+      "end": "2022-12-03T10:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-26T11:00:00.000Z",
+    "slotsLeft": 74
+  },
+  {
+    "id": 18923578,
+    "name": "Jympa intensiv",
+    "duration": {
+      "start": "2022-12-03T10:30:00.000Z",
+      "end": "2022-12-03T11:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-26T12:00:00.000Z",
+    "slotsLeft": 73
+  },
+  {
+    "id": 18926232,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-03T08:30:00.000Z",
+      "end": "2022-12-03T09:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-26T10:00:00.000Z",
+    "slotsLeft": 139
+  },
+  {
+    "id": 18926541,
+    "name": "Skivstång",
+    "duration": {
+      "start": "2022-12-03T09:00:00.000Z",
+      "end": "2022-12-03T10:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-26T10:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18926557,
+    "name": "Familjejympa",
+    "duration": {
+      "start": "2022-12-03T09:30:00.000Z",
+      "end": "2022-12-03T10:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-26T11:00:00.000Z",
+    "slotsLeft": 46
+  },
+  {
+    "id": 18969094,
+    "name": "Spin intervall",
+    "duration": {
+      "start": "2022-12-03T10:00:00.000Z",
+      "end": "2022-12-03T11:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-26T11:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18926571,
+    "name": "Step",
+    "duration": {
+      "start": "2022-12-03T10:00:00.000Z",
+      "end": "2022-12-03T11:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-26T11:30:00.000Z",
+    "slotsLeft": 27
+  },
+  {
+    "id": 19570199,
+    "name": "Temapass",
+    "duration": {
+      "start": "2022-12-03T11:30:00.000Z",
+      "end": "2022-12-03T12:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-26T12:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 19569954,
+    "name": "Temapass",
+    "duration": {
+      "start": "2022-12-03T12:00:00.000Z",
+      "end": "2022-12-03T14:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-26T14:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 19570293,
+    "name": "Temapass",
+    "duration": {
+      "start": "2022-12-03T14:00:00.000Z",
+      "end": "2022-12-03T14:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-26T15:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18983584,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-03T15:00:00.000Z",
+      "end": "2022-12-03T17:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-26T17:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18923633,
+    "name": "Enkeljympa",
+    "duration": {
+      "start": "2022-12-03T09:00:00.000Z",
+      "end": "2022-12-03T10:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-26T10:30:00.000Z",
+    "slotsLeft": 108
+  },
+  {
+    "id": 18946549,
+    "name": "Spin spurt watt",
+    "duration": {
+      "start": "2022-12-03T09:00:00.000Z",
+      "end": "2022-12-03T10:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-26T10:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18923541,
+    "name": "Coreflex",
+    "duration": {
+      "start": "2022-12-03T10:00:00.000Z",
+      "end": "2022-12-03T11:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-26T11:30:00.000Z",
+    "slotsLeft": 106
+  },
+  {
+    "id": 18923648,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-03T10:30:00.000Z",
+      "end": "2022-12-03T11:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-26T12:00:00.000Z",
+    "slotsLeft": 22
+  },
+  {
+    "id": 18957435,
+    "name": "Multifys",
+    "duration": {
+      "start": "2022-12-03T11:00:00.000Z",
+      "end": "2022-12-03T12:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-26T12:30:00.000Z",
+    "slotsLeft": 47
+  },
+  {
+    "id": 18923597,
+    "name": "Multifys",
+    "duration": {
+      "start": "2022-12-03T15:00:00.000Z",
+      "end": "2022-12-03T16:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-26T16:30:00.000Z",
+    "slotsLeft": 105
+  },
+  {
+    "id": 18944410,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-04T09:00:00.000Z",
+      "end": "2022-12-04T10:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-27T10:30:00.000Z",
+    "slotsLeft": 97
+  },
+  {
+    "id": 18955713,
+    "name": "Plaza styrka",
+    "duration": {
+      "start": "2022-12-04T09:00:00.000Z",
+      "end": "2022-12-04T10:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-27T10:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18924721,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-04T09:00:00.000Z",
+      "end": "2022-12-04T10:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-27T10:30:00.000Z",
+    "slotsLeft": 14
+  },
+  {
+    "id": 18945440,
+    "name": "Jympa intensiv",
+    "duration": {
+      "start": "2022-12-04T10:00:00.000Z",
+      "end": "2022-12-04T11:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-27T11:30:00.000Z",
+    "slotsLeft": 98
+  },
+  {
+    "id": 18955728,
+    "name": "Plaza cross",
+    "duration": {
+      "start": "2022-12-04T10:30:00.000Z",
+      "end": "2022-12-04T11:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-27T12:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 19018672,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-04T12:00:00.000Z",
+      "end": "2022-12-04T13:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-27T13:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 19018676,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-04T13:00:00.000Z",
+      "end": "2022-12-04T14:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-27T14:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18924739,
+    "name": "Familjefys",
+    "duration": {
+      "start": "2022-12-04T14:00:00.000Z",
+      "end": "2022-12-04T15:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-27T15:30:00.000Z",
+    "slotsLeft": 30
+  },
+  {
+    "id": 18924775,
+    "name": "Cirkelfys",
+    "duration": {
+      "start": "2022-12-04T15:00:00.000Z",
+      "end": "2022-12-04T16:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-27T16:30:00.000Z",
+    "slotsLeft": 34
+  },
+  {
+    "id": 19003422,
+    "name": "Gymtour tonår",
+    "duration": {
+      "start": "2022-12-04T15:00:00.000Z",
+      "end": "2022-12-04T15:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": null,
+    "slotsLeft": 4
+  },
+  {
+    "id": 18973234,
+    "name": "Träningsinspiratör tonår",
+    "duration": {
+      "start": "2022-12-04T15:00:00.000Z",
+      "end": "2022-12-04T16:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-27T16:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18924791,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-04T16:00:00.000Z",
+      "end": "2022-12-04T17:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-27T17:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18973248,
+    "name": "Träningsinspiratör tonår",
+    "duration": {
+      "start": "2022-12-04T16:00:00.000Z",
+      "end": "2022-12-04T17:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-27T17:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 19003433,
+    "name": "Träningskompis tonår",
+    "duration": {
+      "start": "2022-12-04T16:00:00.000Z",
+      "end": "2022-12-04T17:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-04T06:00:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18924756,
+    "name": "Spin spurt watt",
+    "duration": {
+      "start": "2022-12-04T17:00:00.000Z",
+      "end": "2022-12-04T18:15:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-27T18:45:00.000Z",
+    "slotsLeft": 21
+  },
+  {
+    "id": 18924809,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-04T18:00:00.000Z",
+      "end": "2022-12-04T19:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-27T19:30:00.000Z",
+    "slotsLeft": 98
+  },
+  {
+    "id": 19003445,
+    "name": "Träningskompis tonår",
+    "duration": {
+      "start": "2022-12-04T18:00:00.000Z",
+      "end": "2022-12-04T19:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-04T06:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18974944,
+    "name": "Yoga",
+    "duration": {
+      "start": "2022-12-04T18:00:00.000Z",
+      "end": "2022-12-04T19:15:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-27T19:45:00.000Z",
+    "slotsLeft": 30
+  },
+  {
+    "id": 19509206,
+    "name": "Plaza styrka",
+    "duration": {
+      "start": "2022-12-04T11:00:00.000Z",
+      "end": "2022-12-04T12:00:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-27T12:30:00.000Z",
+    "slotsLeft": 2
+  },
+  {
+    "id": 18930740,
+    "name": "SkivstångIntervall",
+    "duration": {
+      "start": "2022-12-04T09:00:00.000Z",
+      "end": "2022-12-04T10:15:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-27T10:45:00.000Z",
+    "slotsLeft": 18
+  },
+  {
+    "id": 18923614,
+    "name": "Jympa soft",
+    "duration": {
+      "start": "2022-12-04T14:00:00.000Z",
+      "end": "2022-12-04T15:00:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-27T15:30:00.000Z",
+    "slotsLeft": 78
+  },
+  {
+    "id": 18926602,
+    "name": "Skivstång",
+    "duration": {
+      "start": "2022-12-04T09:00:00.000Z",
+      "end": "2022-12-04T10:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-27T10:30:00.000Z",
+    "slotsLeft": 7
+  },
+  {
+    "id": 18926622,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-04T09:00:00.000Z",
+      "end": "2022-12-04T10:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-27T10:30:00.000Z",
+    "slotsLeft": 5
+  },
+  {
+    "id": 18930704,
+    "name": "Multifys",
+    "duration": {
+      "start": "2022-12-04T09:30:00.000Z",
+      "end": "2022-12-04T10:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-27T11:00:00.000Z",
+    "slotsLeft": 79
+  },
+  {
+    "id": 18927233,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-04T10:00:00.000Z",
+      "end": "2022-12-04T11:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-27T11:30:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 19579614,
+    "name": "Spin intervall",
+    "duration": {
+      "start": "2022-12-04T10:00:00.000Z",
+      "end": "2022-12-04T11:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-27T11:30:00.000Z",
+    "slotsLeft": 27
+  },
+  {
+    "id": 18926644,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-04T10:30:00.000Z",
+      "end": "2022-12-04T11:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-27T12:00:00.000Z",
+    "slotsLeft": 144
+  },
+  {
+    "id": 18983615,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-04T11:00:00.000Z",
+      "end": "2022-12-04T12:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-27T12:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18926663,
+    "name": "Step",
+    "duration": {
+      "start": "2022-12-04T15:00:00.000Z",
+      "end": "2022-12-04T16:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-27T16:30:00.000Z",
+    "slotsLeft": 18
+  },
+  {
+    "id": 18926682,
+    "name": "Dans soft",
+    "duration": {
+      "start": "2022-12-04T15:30:00.000Z",
+      "end": "2022-12-04T16:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-27T17:00:00.000Z",
+    "slotsLeft": 147
+  },
+  {
+    "id": 18926701,
+    "name": "Skivstång",
+    "duration": {
+      "start": "2022-12-04T16:00:00.000Z",
+      "end": "2022-12-04T17:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-27T17:30:00.000Z",
+    "slotsLeft": 2
+  },
+  {
+    "id": 18926720,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-04T16:30:00.000Z",
+      "end": "2022-12-04T17:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-27T18:00:00.000Z",
+    "slotsLeft": 145
+  },
+  {
+    "id": 18970240,
+    "name": "Spin intervall",
+    "duration": {
+      "start": "2022-12-04T16:30:00.000Z",
+      "end": "2022-12-04T17:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-27T18:00:00.000Z",
+    "slotsLeft": 21
+  },
+  {
+    "id": 18944502,
+    "name": "Coreflex soft",
+    "duration": {
+      "start": "2022-12-04T17:30:00.000Z",
+      "end": "2022-12-04T18:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-27T19:00:00.000Z",
+    "slotsLeft": 32
+  },
+  {
+    "id": 18923667,
+    "name": "Jympa intensiv",
+    "duration": {
+      "start": "2022-12-04T09:00:00.000Z",
+      "end": "2022-12-04T10:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-27T10:30:00.000Z",
+    "slotsLeft": 107
+  },
+  {
+    "id": 18923685,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-04T10:00:00.000Z",
+      "end": "2022-12-04T11:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-27T11:30:00.000Z",
+    "slotsLeft": 108
+  },
+  {
+    "id": 18923717,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-04T10:00:00.000Z",
+      "end": "2022-12-04T11:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-27T11:30:00.000Z",
+    "slotsLeft": 26
+  },
+  {
+    "id": 18957421,
+    "name": "Familjejympa",
+    "duration": {
+      "start": "2022-12-04T13:00:00.000Z",
+      "end": "2022-12-04T14:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-27T14:30:00.000Z",
+    "slotsLeft": 23
+  },
+  {
+    "id": 19640502,
+    "name": "Barnpassning",
+    "duration": {
+      "start": "2022-12-04T14:00:00.000Z",
+      "end": "2022-12-04T16:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-27T16:30:00.000Z",
+    "slotsLeft": 10
+  },
+  {
+    "id": 19062624,
+    "name": "Temapass",
+    "duration": {
+      "start": "2022-12-04T14:00:00.000Z",
+      "end": "2022-12-04T15:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-27T15:30:00.000Z",
+    "slotsLeft": 19
+  },
+  {
+    "id": 18923736,
+    "name": "Spin flow",
+    "duration": {
+      "start": "2022-12-04T15:30:00.000Z",
+      "end": "2022-12-04T16:45:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-27T17:15:00.000Z",
+    "slotsLeft": 26
+  },
+  {
+    "id": 18926298,
+    "name": "UtePass",
+    "duration": {
+      "start": "2022-12-04T15:30:00.000Z",
+      "end": "2022-12-04T16:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-27T17:00:00.000Z",
+    "slotsLeft": 8
+  },
+  {
+    "id": 18923754,
+    "name": "Multifys",
+    "duration": {
+      "start": "2022-12-04T16:00:00.000Z",
+      "end": "2022-12-04T17:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-27T17:30:00.000Z",
+    "slotsLeft": 28
+  },
+  {
+    "id": 18923770,
+    "name": "Skivstång",
+    "duration": {
+      "start": "2022-12-04T16:00:00.000Z",
+      "end": "2022-12-04T17:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-27T17:30:00.000Z",
+    "slotsLeft": 39
+  },
+  {
+    "id": 18926312,
+    "name": "Gruppintroduktion gym",
+    "duration": {
+      "start": "2022-12-04T17:00:00.000Z",
+      "end": "2022-12-04T18:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-27T18:30:00.000Z",
+    "slotsLeft": 4
+  },
+  {
+    "id": 18983405,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-04T17:00:00.000Z",
+      "end": "2022-12-04T18:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-27T18:30:00.000Z",
+    "slotsLeft": 107
+  },
+  {
+    "id": 18973222,
+    "name": "Träningsinspiratör tonår",
+    "duration": {
+      "start": "2022-12-04T19:00:00.000Z",
+      "end": "2022-12-04T20:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-27T20:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18977774,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-05T06:15:00.000Z",
+      "end": "2022-12-05T08:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-28T08:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18954418,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-05T08:00:00.000Z",
+      "end": "2022-12-05T09:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-28T09:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18923820,
+    "name": "UtePass",
+    "duration": {
+      "start": "2022-12-05T08:30:00.000Z",
+      "end": "2022-12-05T09:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-28T10:00:00.000Z",
+    "slotsLeft": 46
+  },
+  {
+    "id": 18954433,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-05T09:30:00.000Z",
+      "end": "2022-12-05T10:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-28T11:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 19640657,
+    "name": "Barnpassning",
+    "duration": {
+      "start": "2022-12-05T10:00:00.000Z",
+      "end": "2022-12-05T11:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-28T12:00:00.000Z",
+    "slotsLeft": 8
+  },
+  {
+    "id": 18923838,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-05T10:00:00.000Z",
+      "end": "2022-12-05T11:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-28T11:30:00.000Z",
+    "slotsLeft": 15
+  },
+  {
+    "id": 19022967,
+    "name": "Pass i gymmet",
+    "duration": {
+      "start": "2022-12-05T11:00:00.000Z",
+      "end": "2022-12-05T12:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-28T12:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18977788,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-05T12:45:00.000Z",
+      "end": "2022-12-05T14:15:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-28T14:45:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18923875,
+    "name": "Spin spurt",
+    "duration": {
+      "start": "2022-12-05T16:30:00.000Z",
+      "end": "2022-12-05T17:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-28T18:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18923893,
+    "name": "Jympa intensiv",
+    "duration": {
+      "start": "2022-12-05T17:00:00.000Z",
+      "end": "2022-12-05T18:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-28T18:30:00.000Z",
+    "slotsLeft": 90
+  },
+  {
+    "id": 18923910,
+    "name": "Yoga",
+    "duration": {
+      "start": "2022-12-05T17:00:00.000Z",
+      "end": "2022-12-05T18:15:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-28T18:45:00.000Z",
+    "slotsLeft": 41
+  },
+  {
+    "id": 19055346,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-05T17:30:00.000Z",
+      "end": "2022-12-05T18:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-28T19:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18923943,
+    "name": "Cirkelfys",
+    "duration": {
+      "start": "2022-12-05T18:00:00.000Z",
+      "end": "2022-12-05T19:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-28T19:30:00.000Z",
+    "slotsLeft": 34
+  },
+  {
+    "id": 18923927,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-05T18:00:00.000Z",
+      "end": "2022-12-05T19:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-28T19:30:00.000Z",
+    "slotsLeft": 12
+  },
+  {
+    "id": 18922829,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-05T10:30:00.000Z",
+      "end": "2022-12-05T11:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-28T12:00:00.000Z",
+    "slotsLeft": 22
+  },
+  {
+    "id": 19139189,
+    "name": "Plaza cross",
+    "duration": {
+      "start": "2022-12-05T11:00:00.000Z",
+      "end": "2022-12-05T12:00:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-28T12:30:00.000Z",
+    "slotsLeft": 6
+  },
+  {
+    "id": 18986107,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-05T13:00:00.000Z",
+      "end": "2022-12-05T17:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-28T18:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18922852,
+    "name": "Skivstång",
+    "duration": {
+      "start": "2022-12-05T15:30:00.000Z",
+      "end": "2022-12-05T16:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-28T17:00:00.000Z",
+    "slotsLeft": 12
+  },
+  {
+    "id": 18983716,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-05T16:00:00.000Z",
+      "end": "2022-12-05T17:00:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-28T17:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 19003461,
+    "name": "Träningskompis tonår",
+    "duration": {
+      "start": "2022-12-05T16:00:00.000Z",
+      "end": "2022-12-05T17:00:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-05T06:00:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 19662406,
+    "name": "Cirkelfys",
+    "duration": {
+      "start": "2022-12-05T16:30:00.000Z",
+      "end": "2022-12-05T17:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-28T18:00:00.000Z",
+    "slotsLeft": 34
+  },
+  {
+    "id": 19068531,
+    "name": "Plaza styrka",
+    "duration": {
+      "start": "2022-12-05T17:00:00.000Z",
+      "end": "2022-12-05T18:00:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-28T18:30:00.000Z",
+    "slotsLeft": 3
+  },
+  {
+    "id": 18973266,
+    "name": "Träningsinspiratör tonår",
+    "duration": {
+      "start": "2022-12-05T17:00:00.000Z",
+      "end": "2022-12-05T18:00:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-28T18:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18991274,
+    "name": "Box",
+    "duration": {
+      "start": "2022-12-05T17:30:00.000Z",
+      "end": "2022-12-05T18:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-28T19:00:00.000Z",
+    "slotsLeft": 22
+  },
+  {
+    "id": 18930673,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-05T18:00:00.000Z",
+      "end": "2022-12-05T18:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-28T19:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 19058420,
+    "name": "Yoga soft",
+    "duration": {
+      "start": "2022-12-05T09:00:00.000Z",
+      "end": "2022-12-05T10:00:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-28T10:30:00.000Z",
+    "slotsLeft": 86
+  },
+  {
+    "id": 18923272,
+    "name": "Coreflex soft",
+    "duration": {
+      "start": "2022-12-05T11:00:00.000Z",
+      "end": "2022-12-05T12:00:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-28T12:30:00.000Z",
+    "slotsLeft": 88
+  },
+  {
+    "id": 18955282,
+    "name": "Coreflex soft",
+    "duration": {
+      "start": "2022-12-05T15:30:00.000Z",
+      "end": "2022-12-05T16:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-28T17:00:00.000Z",
+    "slotsLeft": 88
+  },
+  {
+    "id": 18923291,
+    "name": "Skivstång",
+    "duration": {
+      "start": "2022-12-05T16:30:00.000Z",
+      "end": "2022-12-05T17:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-28T18:00:00.000Z",
+    "slotsLeft": 28
+  },
+  {
+    "id": 18949558,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-05T17:30:00.000Z",
+      "end": "2022-12-05T18:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-28T19:00:00.000Z",
+    "slotsLeft": 86
+  },
+  {
+    "id": 18926739,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-04T18:30:00.000Z",
+      "end": "2022-12-04T19:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-27T20:00:00.000Z",
+    "slotsLeft": 148
+  },
+  {
+    "id": 18923970,
+    "name": "Coreflex soft",
+    "duration": {
+      "start": "2022-12-05T08:00:00.000Z",
+      "end": "2022-12-05T09:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-28T09:30:00.000Z",
+    "slotsLeft": 146
+  },
+  {
+    "id": 18923989,
+    "name": "Spin soft",
+    "duration": {
+      "start": "2022-12-05T09:00:00.000Z",
+      "end": "2022-12-05T09:50:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-28T10:20:00.000Z",
+    "slotsLeft": 28
+  },
+  {
+    "id": 18968083,
+    "name": "Cirkelfys soft",
+    "duration": {
+      "start": "2022-12-05T09:30:00.000Z",
+      "end": "2022-12-05T10:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-28T11:00:00.000Z",
+    "slotsLeft": 33
+  },
+  {
+    "id": 19640633,
+    "name": "Barnpassning",
+    "duration": {
+      "start": "2022-12-05T10:30:00.000Z",
+      "end": "2022-12-05T12:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-28T12:30:00.000Z",
+    "slotsLeft": 12
+  },
+  {
+    "id": 18924008,
+    "name": "Multifys",
+    "duration": {
+      "start": "2022-12-05T10:30:00.000Z",
+      "end": "2022-12-05T11:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-28T12:00:00.000Z",
+    "slotsLeft": 83
+  },
+  {
+    "id": 19038620,
+    "name": "Pass i gymmet",
+    "duration": {
+      "start": "2022-12-05T11:00:00.000Z",
+      "end": "2022-12-05T12:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-28T12:30:00.000Z",
+    "slotsLeft": 4
+  },
+  {
+    "id": 18924031,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-05T11:00:00.000Z",
+      "end": "2022-12-05T11:45:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-28T12:15:00.000Z",
+    "slotsLeft": 34
+  },
+  {
+    "id": 18924049,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-05T15:00:00.000Z",
+      "end": "2022-12-05T16:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-28T16:30:00.000Z",
+    "slotsLeft": 35
+  },
+  {
+    "id": 18996319,
+    "name": "Träningskompis tonår",
+    "duration": {
+      "start": "2022-12-05T15:00:00.000Z",
+      "end": "2022-12-05T16:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-05T06:00:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18965623,
+    "name": "Enkeljympa",
+    "duration": {
+      "start": "2022-12-05T15:30:00.000Z",
+      "end": "2022-12-05T16:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-28T17:00:00.000Z",
+    "slotsLeft": 73
+  },
+  {
+    "id": 18924071,
+    "name": "Cirkelfys",
+    "duration": {
+      "start": "2022-12-05T16:00:00.000Z",
+      "end": "2022-12-05T17:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-28T17:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18996333,
+    "name": "Gymtour tonår",
+    "duration": {
+      "start": "2022-12-05T16:00:00.000Z",
+      "end": "2022-12-05T16:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": null,
+    "slotsLeft": 1
+  },
+  {
+    "id": 18973115,
+    "name": "Träningsinspiratör tonår",
+    "duration": {
+      "start": "2022-12-05T16:00:00.000Z",
+      "end": "2022-12-05T18:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-28T18:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18924091,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-05T16:30:00.000Z",
+      "end": "2022-12-05T17:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-28T18:00:00.000Z",
+    "slotsLeft": 148
+  },
+  {
+    "id": 18924117,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-05T16:30:00.000Z",
+      "end": "2022-12-05T17:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-28T18:00:00.000Z",
+    "slotsLeft": 20
+  },
+  {
+    "id": 18924155,
+    "name": "Skivstång soft",
+    "duration": {
+      "start": "2022-12-05T17:00:00.000Z",
+      "end": "2022-12-05T18:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-28T18:30:00.000Z",
+    "slotsLeft": 15
+  },
+  {
+    "id": 18973132,
+    "name": "Träningsinspiratör tonår",
+    "duration": {
+      "start": "2022-12-05T17:00:00.000Z",
+      "end": "2022-12-05T19:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-28T19:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18924263,
+    "name": "Jympa soft",
+    "duration": {
+      "start": "2022-12-05T17:30:00.000Z",
+      "end": "2022-12-05T18:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-28T19:00:00.000Z",
+    "slotsLeft": 148
+  },
+  {
+    "id": 18924284,
+    "name": "Coreflex",
+    "duration": {
+      "start": "2022-12-05T18:00:00.000Z",
+      "end": "2022-12-05T19:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-28T19:30:00.000Z",
+    "slotsLeft": 31
+  },
+  {
+    "id": 18927101,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-05T18:00:00.000Z",
+      "end": "2022-12-05T19:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-28T19:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18924303,
+    "name": "Spin intervall",
+    "duration": {
+      "start": "2022-12-05T18:00:00.000Z",
+      "end": "2022-12-05T19:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-28T19:30:00.000Z",
+    "slotsLeft": 17
+  },
+  {
+    "id": 18926326,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-04T18:30:00.000Z",
+      "end": "2022-12-04T19:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-27T20:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18977720,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-05T08:00:00.000Z",
+      "end": "2022-12-05T09:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-28T09:30:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18921176,
+    "name": "Jympa soft",
+    "duration": {
+      "start": "2022-12-05T08:30:00.000Z",
+      "end": "2022-12-05T09:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-28T10:00:00.000Z",
+    "slotsLeft": 108
+  },
+  {
+    "id": 18954502,
+    "name": "Cirkelfys",
+    "duration": {
+      "start": "2022-12-05T09:30:00.000Z",
+      "end": "2022-12-05T10:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-28T11:00:00.000Z",
+    "slotsLeft": 37
+  },
+  {
+    "id": 18921212,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-05T10:30:00.000Z",
+      "end": "2022-12-05T11:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-28T12:00:00.000Z",
+    "slotsLeft": 108
+  },
+  {
+    "id": 18921193,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-05T10:30:00.000Z",
+      "end": "2022-12-05T11:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-28T12:00:00.000Z",
+    "slotsLeft": 24
+  },
+  {
+    "id": 18977698,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-05T11:00:00.000Z",
+      "end": "2022-12-05T14:15:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-28T14:45:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18977747,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-05T14:30:00.000Z",
+      "end": "2022-12-05T15:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-28T16:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18925035,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-05T16:00:00.000Z",
+      "end": "2022-12-05T17:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-28T17:30:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18921249,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-05T16:00:00.000Z",
+      "end": "2022-12-05T17:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-28T17:30:00.000Z",
+    "slotsLeft": 108
+  },
+  {
+    "id": 19027473,
+    "name": "Pass i gymmet",
+    "duration": {
+      "start": "2022-12-05T16:00:00.000Z",
+      "end": "2022-12-05T17:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-28T17:30:00.000Z",
+    "slotsLeft": 2
+  },
+  {
+    "id": 18921231,
+    "name": "Spin intervall",
+    "duration": {
+      "start": "2022-12-05T16:00:00.000Z",
+      "end": "2022-12-05T17:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-28T17:30:00.000Z",
+    "slotsLeft": 24
+  },
+  {
+    "id": 18925052,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-05T17:00:00.000Z",
+      "end": "2022-12-05T18:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-28T18:30:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18921266,
+    "name": "Jympa intensiv",
+    "duration": {
+      "start": "2022-12-05T17:00:00.000Z",
+      "end": "2022-12-05T18:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-28T18:30:00.000Z",
+    "slotsLeft": 99
+  },
+  {
+    "id": 18921285,
+    "name": "Power hour",
+    "duration": {
+      "start": "2022-12-05T17:30:00.000Z",
+      "end": "2022-12-05T18:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-28T19:00:00.000Z",
+    "slotsLeft": 16
+  },
+  {
+    "id": 18953853,
+    "name": "Spin spurt watt",
+    "duration": {
+      "start": "2022-12-05T17:30:00.000Z",
+      "end": "2022-12-05T18:45:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-28T19:15:00.000Z",
+    "slotsLeft": 25
+  },
+  {
+    "id": 18921304,
+    "name": "Skivstång",
+    "duration": {
+      "start": "2022-12-05T18:00:00.000Z",
+      "end": "2022-12-05T19:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-28T19:30:00.000Z",
+    "slotsLeft": 42
+  },
+  {
+    "id": 18925069,
+    "name": "UtePass",
+    "duration": {
+      "start": "2022-12-05T18:00:00.000Z",
+      "end": "2022-12-05T19:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-28T19:30:00.000Z",
+    "slotsLeft": 8
+  },
+  {
+    "id": 18929013,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-05T19:00:00.000Z",
+      "end": "2022-12-05T20:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-28T20:30:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18977567,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-06T06:00:00.000Z",
+      "end": "2022-12-06T07:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-29T08:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18924136,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-06T06:15:00.000Z",
+      "end": "2022-12-06T07:15:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-29T07:45:00.000Z",
+    "slotsLeft": 23
+  },
+  {
+    "id": 18954447,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-06T07:30:00.000Z",
+      "end": "2022-12-06T08:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-29T09:00:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18924174,
+    "name": "Jympa soft",
+    "duration": {
+      "start": "2022-12-06T08:30:00.000Z",
+      "end": "2022-12-06T09:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-29T10:00:00.000Z",
+    "slotsLeft": 98
+  },
+  {
+    "id": 18954462,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-06T09:00:00.000Z",
+      "end": "2022-12-06T10:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-29T10:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18924188,
+    "name": "Spin soft",
+    "duration": {
+      "start": "2022-12-06T09:30:00.000Z",
+      "end": "2022-12-06T10:20:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-29T10:50:00.000Z",
+    "slotsLeft": 19
+  },
+  {
+    "id": 18954368,
+    "name": "Cirkelfys",
+    "duration": {
+      "start": "2022-12-06T11:00:00.000Z",
+      "end": "2022-12-06T12:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-29T12:30:00.000Z",
+    "slotsLeft": 42
+  },
+  {
+    "id": 18977581,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-06T13:00:00.000Z",
+      "end": "2022-12-06T14:15:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-29T14:45:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18924206,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-06T16:00:00.000Z",
+      "end": "2022-12-06T17:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-29T17:30:00.000Z",
+    "slotsLeft": 94
+  },
+  {
+    "id": 18924225,
+    "name": "Spin spurt watt",
+    "duration": {
+      "start": "2022-12-06T16:30:00.000Z",
+      "end": "2022-12-06T17:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-29T18:00:00.000Z",
+    "slotsLeft": 20
+  },
+  {
+    "id": 18924244,
+    "name": "Jympa intensiv",
+    "duration": {
+      "start": "2022-12-06T17:00:00.000Z",
+      "end": "2022-12-06T18:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-29T18:30:00.000Z",
+    "slotsLeft": 98
+  },
+  {
+    "id": 19129555,
+    "name": "Plaza styrka",
+    "duration": {
+      "start": "2022-12-06T17:00:00.000Z",
+      "end": "2022-12-06T18:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-29T18:30:00.000Z",
+    "slotsLeft": 16
+  },
+  {
+    "id": 18968263,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-06T18:00:00.000Z",
+      "end": "2022-12-06T19:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-29T19:30:00.000Z",
+    "slotsLeft": 98
+  },
+  {
+    "id": 18956061,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-06T18:00:00.000Z",
+      "end": "2022-12-06T19:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-29T19:30:00.000Z",
+    "slotsLeft": 23
+  },
+  {
+    "id": 18922889,
+    "name": "SkivstångIntervall",
+    "duration": {
+      "start": "2022-12-06T05:30:00.000Z",
+      "end": "2022-12-06T06:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-29T07:00:00.000Z",
+    "slotsLeft": 23
+  },
+  {
+    "id": 18922920,
+    "name": "Skivstång",
+    "duration": {
+      "start": "2022-12-06T10:30:00.000Z",
+      "end": "2022-12-06T11:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-29T12:00:00.000Z",
+    "slotsLeft": 21
+  },
+  {
+    "id": 18986119,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-06T11:00:00.000Z",
+      "end": "2022-12-06T15:00:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-29T15:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18955226,
+    "name": "Coreflex",
+    "duration": {
+      "start": "2022-12-06T15:30:00.000Z",
+      "end": "2022-12-06T16:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-29T17:00:00.000Z",
+    "slotsLeft": 26
+  },
+  {
+    "id": 19470182,
+    "name": "Step",
+    "duration": {
+      "start": "2022-12-06T16:30:00.000Z",
+      "end": "2022-12-06T17:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-29T18:00:00.000Z",
+    "slotsLeft": 21
+  },
+  {
+    "id": 18928480,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-06T17:00:00.000Z",
+      "end": "2022-12-06T17:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-29T18:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18922943,
+    "name": "Dans flow",
+    "duration": {
+      "start": "2022-12-06T17:30:00.000Z",
+      "end": "2022-12-06T18:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-29T19:00:00.000Z",
+    "slotsLeft": 23
+  },
+  {
+    "id": 19023028,
+    "name": "Pass i gymmet",
+    "duration": {
+      "start": "2022-12-06T17:30:00.000Z",
+      "end": "2022-12-06T18:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-29T19:00:00.000Z",
+    "slotsLeft": 8
+  },
+  {
+    "id": 19015679,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-06T07:30:00.000Z",
+      "end": "2022-12-06T08:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-29T09:00:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18946722,
+    "name": "Seniorklubben",
+    "duration": {
+      "start": "2022-12-06T08:30:00.000Z",
+      "end": "2022-12-06T09:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-29T10:00:00.000Z",
+    "slotsLeft": 43
+  },
+  {
+    "id": 19023093,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-06T09:00:00.000Z",
+      "end": "2022-12-06T10:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-29T11:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18957826,
+    "name": "Cirkelfys",
+    "duration": {
+      "start": "2022-12-06T11:00:00.000Z",
+      "end": "2022-12-06T12:00:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-29T12:30:00.000Z",
+    "slotsLeft": 42
+  },
+  {
+    "id": 18950583,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-06T15:30:00.000Z",
+      "end": "2022-12-06T16:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-29T17:00:00.000Z",
+    "slotsLeft": 88
+  },
+  {
+    "id": 18923313,
+    "name": "Skivstång soft",
+    "duration": {
+      "start": "2022-12-06T16:30:00.000Z",
+      "end": "2022-12-06T17:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-29T18:00:00.000Z",
+    "slotsLeft": 37
+  },
+  {
+    "id": 19028257,
+    "name": "UtePass",
+    "duration": {
+      "start": "2022-12-06T16:30:00.000Z",
+      "end": "2022-12-06T17:15:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-29T17:45:00.000Z",
+    "slotsLeft": 18
+  },
+  {
+    "id": 18973551,
+    "name": "Power hour",
+    "duration": {
+      "start": "2022-12-06T17:30:00.000Z",
+      "end": "2022-12-06T18:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-29T19:00:00.000Z",
+    "slotsLeft": 33
+  },
+  {
+    "id": 18924341,
+    "name": "Dans explode",
+    "duration": {
+      "start": "2022-12-05T18:30:00.000Z",
+      "end": "2022-12-05T19:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-28T20:00:00.000Z",
+    "slotsLeft": 148
+  },
+  {
+    "id": 18983634,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-05T19:00:00.000Z",
+      "end": "2022-12-05T20:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-28T21:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18925470,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-06T05:30:00.000Z",
+      "end": "2022-12-06T06:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-29T07:00:00.000Z",
+    "slotsLeft": 34
+  },
+  {
+    "id": 19021678,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-06T06:00:00.000Z",
+      "end": "2022-12-06T07:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-29T07:30:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18968035,
+    "name": "Cirkelfys soft",
+    "duration": {
+      "start": "2022-12-06T08:00:00.000Z",
+      "end": "2022-12-06T09:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-29T09:30:00.000Z",
+    "slotsLeft": 38
+  },
+  {
+    "id": 18925492,
+    "name": "Mammapower",
+    "duration": {
+      "start": "2022-12-06T09:00:00.000Z",
+      "end": "2022-12-06T10:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-29T10:30:00.000Z",
+    "slotsLeft": 148
+  },
+  {
+    "id": 18925512,
+    "name": "Skivstång",
+    "duration": {
+      "start": "2022-12-06T10:00:00.000Z",
+      "end": "2022-12-06T11:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-29T11:30:00.000Z",
+    "slotsLeft": 32
+  },
+  {
+    "id": 18944576,
+    "name": "Spin intervall",
+    "duration": {
+      "start": "2022-12-06T11:00:00.000Z",
+      "end": "2022-12-06T12:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-29T12:30:00.000Z",
+    "slotsLeft": 35
+  },
+  {
+    "id": 18927077,
+    "name": "Yoga",
+    "duration": {
+      "start": "2022-12-06T11:00:00.000Z",
+      "end": "2022-12-06T12:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-29T12:30:00.000Z",
+    "slotsLeft": 87
+  },
+  {
+    "id": 19021684,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-06T12:00:00.000Z",
+      "end": "2022-12-06T13:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-29T13:30:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18925531,
+    "name": "Spin soft",
+    "duration": {
+      "start": "2022-12-06T15:00:00.000Z",
+      "end": "2022-12-06T15:50:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-29T16:20:00.000Z",
+    "slotsLeft": 36
+  },
+  {
+    "id": 18925556,
+    "name": "Jympa soft",
+    "duration": {
+      "start": "2022-12-06T15:30:00.000Z",
+      "end": "2022-12-06T16:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-29T17:00:00.000Z",
+    "slotsLeft": 148
+  },
+  {
+    "id": 18945273,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-06T16:00:00.000Z",
+      "end": "2022-12-06T17:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-29T17:30:00.000Z",
+    "slotsLeft": 36
+  },
+  {
+    "id": 18925581,
+    "name": "Power hour",
+    "duration": {
+      "start": "2022-12-06T16:30:00.000Z",
+      "end": "2022-12-06T17:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-29T18:00:00.000Z",
+    "slotsLeft": 47
+  },
+  {
+    "id": 18925620,
+    "name": "Löpning cross",
+    "duration": {
+      "start": "2022-12-06T17:00:00.000Z",
+      "end": "2022-12-06T17:55:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-29T18:25:00.000Z",
+    "slotsLeft": 38
+  },
+  {
+    "id": 18925600,
+    "name": "Step",
+    "duration": {
+      "start": "2022-12-06T17:00:00.000Z",
+      "end": "2022-12-06T18:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-29T18:30:00.000Z",
+    "slotsLeft": 35
+  },
+  {
+    "id": 19021592,
+    "name": "Träningskompis tonår",
+    "duration": {
+      "start": "2022-12-06T17:00:00.000Z",
+      "end": "2022-12-06T18:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-06T06:00:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18925665,
+    "name": "Jympa intensiv",
+    "duration": {
+      "start": "2022-12-06T17:30:00.000Z",
+      "end": "2022-12-06T18:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-29T19:00:00.000Z",
+    "slotsLeft": 148
+  },
+  {
+    "id": 18925640,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-06T17:30:00.000Z",
+      "end": "2022-12-06T18:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-29T19:00:00.000Z",
+    "slotsLeft": 36
+  },
+  {
+    "id": 19021611,
+    "name": "Gymtour tonår",
+    "duration": {
+      "start": "2022-12-06T18:00:00.000Z",
+      "end": "2022-12-06T18:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": null,
+    "slotsLeft": 6
+  },
+  {
+    "id": 18925685,
+    "name": "Skivstång",
+    "duration": {
+      "start": "2022-12-06T18:00:00.000Z",
+      "end": "2022-12-06T19:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-29T19:30:00.000Z",
+    "slotsLeft": 35
+  },
+  {
+    "id": 18983663,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-06T18:00:00.000Z",
+      "end": "2022-12-06T19:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-29T19:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18925087,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-05T19:30:00.000Z",
+      "end": "2022-12-05T20:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-28T21:00:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18969288,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-06T05:00:00.000Z",
+      "end": "2022-12-06T06:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-29T06:30:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18969295,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-06T06:00:00.000Z",
+      "end": "2022-12-06T08:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-29T08:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18921322,
+    "name": "Spin soft",
+    "duration": {
+      "start": "2022-12-06T09:00:00.000Z",
+      "end": "2022-12-06T09:50:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-29T10:20:00.000Z",
+    "slotsLeft": 17
+  },
+  {
+    "id": 19003195,
+    "name": "Barnpassning",
+    "duration": {
+      "start": "2022-12-06T10:00:00.000Z",
+      "end": "2022-12-06T11:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": null,
+    "slotsLeft": 9
+  },
+  {
+    "id": 19039228,
+    "name": "Multifys soft",
+    "duration": {
+      "start": "2022-12-06T10:00:00.000Z",
+      "end": "2022-12-06T11:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-29T11:30:00.000Z",
+    "slotsLeft": 48
+  },
+  {
+    "id": 18921360,
+    "name": "Step explode",
+    "duration": {
+      "start": "2022-12-06T16:00:00.000Z",
+      "end": "2022-12-06T17:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-29T17:30:00.000Z",
+    "slotsLeft": 48
+  },
+  {
+    "id": 18925109,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-06T16:00:00.000Z",
+      "end": "2022-12-06T17:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-29T18:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18921378,
+    "name": "Coreflex",
+    "duration": {
+      "start": "2022-12-06T16:30:00.000Z",
+      "end": "2022-12-06T17:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-29T18:00:00.000Z",
+    "slotsLeft": 48
+  },
+  {
+    "id": 18924829,
+    "name": "Spin intervall",
+    "duration": {
+      "start": "2022-12-06T16:30:00.000Z",
+      "end": "2022-12-06T17:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-29T18:00:00.000Z",
+    "slotsLeft": 28
+  },
+  {
+    "id": 18924704,
+    "name": "Familjefys",
+    "duration": {
+      "start": "2022-12-06T17:00:00.000Z",
+      "end": "2022-12-06T18:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-29T18:30:00.000Z",
+    "slotsLeft": 28
+  },
+  {
+    "id": 18925097,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-06T17:30:00.000Z",
+      "end": "2022-12-06T18:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-29T19:00:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18921397,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-06T18:00:00.000Z",
+      "end": "2022-12-06T19:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-29T19:30:00.000Z",
+    "slotsLeft": 108
+  },
+  {
+    "id": 18924851,
+    "name": "Plaza cross",
+    "duration": {
+      "start": "2022-12-06T18:30:00.000Z",
+      "end": "2022-12-06T19:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-29T20:00:00.000Z",
+    "slotsLeft": 16
+  },
+  {
+    "id": 18948593,
+    "name": "Coreflex soft",
+    "duration": {
+      "start": "2022-12-07T08:00:00.000Z",
+      "end": "2022-12-07T09:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-30T09:30:00.000Z",
+    "slotsLeft": 98
+  },
+  {
+    "id": 18924322,
+    "name": "Spin spurt",
+    "duration": {
+      "start": "2022-12-07T09:00:00.000Z",
+      "end": "2022-12-07T10:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-30T10:30:00.000Z",
+    "slotsLeft": 23
+  },
+  {
+    "id": 18977594,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-07T09:30:00.000Z",
+      "end": "2022-12-07T13:45:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-30T14:15:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18924360,
+    "name": "Skivstång",
+    "duration": {
+      "start": "2022-12-07T10:00:00.000Z",
+      "end": "2022-12-07T11:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-30T11:30:00.000Z",
+    "slotsLeft": 48
+  },
+  {
+    "id": 19068736,
+    "name": "Pass i gymmet",
+    "duration": {
+      "start": "2022-12-07T14:00:00.000Z",
+      "end": "2022-12-07T15:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-30T15:30:00.000Z",
+    "slotsLeft": 8
+  },
+  {
+    "id": 18924376,
+    "name": "Coreflex",
+    "duration": {
+      "start": "2022-12-07T15:00:00.000Z",
+      "end": "2022-12-07T16:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-30T16:30:00.000Z",
+    "slotsLeft": 98
+  },
+  {
+    "id": 18924868,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-07T16:00:00.000Z",
+      "end": "2022-12-07T17:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-30T17:30:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18924395,
+    "name": "Step",
+    "duration": {
+      "start": "2022-12-07T16:00:00.000Z",
+      "end": "2022-12-07T17:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-30T17:30:00.000Z",
+    "slotsLeft": 48
+  },
+  {
+    "id": 18924435,
+    "name": "Yoga",
+    "duration": {
+      "start": "2022-12-07T16:30:00.000Z",
+      "end": "2022-12-07T17:30:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-30T18:00:00.000Z",
+    "slotsLeft": 43
+  },
+  {
+    "id": 18954394,
+    "name": "Gruppintroduktion gym",
+    "duration": {
+      "start": "2022-12-07T17:00:00.000Z",
+      "end": "2022-12-07T18:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-30T18:30:00.000Z",
+    "slotsLeft": 5
+  },
+  {
+    "id": 18924882,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-07T17:00:00.000Z",
+      "end": "2022-12-07T18:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-30T18:30:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18924454,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-07T17:00:00.000Z",
+      "end": "2022-12-07T18:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-30T18:30:00.000Z",
+    "slotsLeft": 98
+  },
+  {
+    "id": 18924416,
+    "name": "Spin intervall",
+    "duration": {
+      "start": "2022-12-07T17:00:00.000Z",
+      "end": "2022-12-07T18:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-30T18:30:00.000Z",
+    "slotsLeft": 23
+  },
+  {
+    "id": 18924473,
+    "name": "Skivstång soft",
+    "duration": {
+      "start": "2022-12-07T18:00:00.000Z",
+      "end": "2022-12-07T19:00:00.000Z"
+    },
+    "place": "Ekeby",
+    "bookableEarliest": "2022-11-30T19:30:00.000Z",
+    "slotsLeft": 48
+  },
+  {
+    "id": 18928502,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-06T18:30:00.000Z",
+      "end": "2022-12-06T19:00:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-29T19:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18922980,
+    "name": "Skivstång",
+    "duration": {
+      "start": "2022-12-07T10:30:00.000Z",
+      "end": "2022-12-07T11:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-30T12:00:00.000Z",
+    "slotsLeft": 23
+  },
+  {
+    "id": 19139224,
+    "name": "Plaza styrka",
+    "duration": {
+      "start": "2022-12-07T11:00:00.000Z",
+      "end": "2022-12-07T12:00:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-30T12:30:00.000Z",
+    "slotsLeft": 12
+  },
+  {
+    "id": 18989123,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-07T13:00:00.000Z",
+      "end": "2022-12-07T16:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-30T17:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18923000,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-07T15:30:00.000Z",
+      "end": "2022-12-07T16:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-30T17:00:00.000Z",
+    "slotsLeft": 23
+  },
+  {
+    "id": 18993598,
+    "name": "Box",
+    "duration": {
+      "start": "2022-12-07T16:30:00.000Z",
+      "end": "2022-12-07T17:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-30T18:00:00.000Z",
+    "slotsLeft": 24
+  },
+  {
+    "id": 18923018,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-07T16:30:00.000Z",
+      "end": "2022-12-07T17:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-30T18:00:00.000Z",
+    "slotsLeft": 18
+  },
+  {
+    "id": 18955245,
+    "name": "Multifys",
+    "duration": {
+      "start": "2022-12-07T17:30:00.000Z",
+      "end": "2022-12-07T18:30:00.000Z"
+    },
+    "place": "Stallet",
+    "bookableEarliest": "2022-11-30T19:00:00.000Z",
+    "slotsLeft": 28
+  },
+  {
+    "id": 18923332,
+    "name": "Yoga",
+    "duration": {
+      "start": "2022-12-06T18:30:00.000Z",
+      "end": "2022-12-06T19:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-29T20:00:00.000Z",
+    "slotsLeft": 78
+  },
+  {
+    "id": 18923351,
+    "name": "Jympa soft",
+    "duration": {
+      "start": "2022-12-07T10:00:00.000Z",
+      "end": "2022-12-07T11:00:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-30T11:30:00.000Z",
+    "slotsLeft": 78
+  },
+  {
+    "id": 18923410,
+    "name": "Jympa soft",
+    "duration": {
+      "start": "2022-12-07T15:30:00.000Z",
+      "end": "2022-12-07T16:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-30T17:00:00.000Z",
+    "slotsLeft": 78
+  },
+  {
+    "id": 18923370,
+    "name": "Dans soft",
+    "duration": {
+      "start": "2022-12-07T16:30:00.000Z",
+      "end": "2022-12-07T17:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-30T18:00:00.000Z",
+    "slotsLeft": 78
+  },
+  {
+    "id": 19027485,
+    "name": "Pass i gymmet",
+    "duration": {
+      "start": "2022-12-07T16:30:00.000Z",
+      "end": "2022-12-07T17:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-30T18:00:00.000Z",
+    "slotsLeft": 5
+  },
+  {
+    "id": 18923391,
+    "name": "Cirkelfys",
+    "duration": {
+      "start": "2022-12-07T17:30:00.000Z",
+      "end": "2022-12-07T18:30:00.000Z"
+    },
+    "place": "Fyrishov",
+    "bookableEarliest": "2022-11-30T19:00:00.000Z",
+    "slotsLeft": 43
+  },
+  {
+    "id": 18978698,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-06T18:30:00.000Z",
+      "end": "2022-12-06T19:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-29T20:00:00.000Z",
+    "slotsLeft": 148
+  },
+  {
+    "id": 19021622,
+    "name": "Träningsinspiratör tonår",
+    "duration": {
+      "start": "2022-12-06T18:30:00.000Z",
+      "end": "2022-12-06T19:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-29T19:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18927141,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-06T19:00:00.000Z",
+      "end": "2022-12-06T20:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-29T20:30:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18973204,
+    "name": "Träningsinspiratör tonår",
+    "duration": {
+      "start": "2022-12-06T19:00:00.000Z",
+      "end": "2022-12-06T21:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-29T21:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18930626,
+    "name": "Tillgänglig tränare",
+    "duration": {
+      "start": "2022-12-06T20:00:00.000Z",
+      "end": "2022-12-06T20:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-29T21:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18925705,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-07T05:30:00.000Z",
+      "end": "2022-12-07T06:15:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-30T06:45:00.000Z",
+    "slotsLeft": 36
+  },
+  {
+    "id": 19020552,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-07T07:30:00.000Z",
+      "end": "2022-12-07T08:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-30T09:00:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18968026,
+    "name": "Cirkelfys soft",
+    "duration": {
+      "start": "2022-12-07T09:30:00.000Z",
+      "end": "2022-12-07T10:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-30T11:00:00.000Z",
+    "slotsLeft": 43
+  },
+  {
+    "id": 19003251,
+    "name": "Barnpassning",
+    "duration": {
+      "start": "2022-12-07T10:30:00.000Z",
+      "end": "2022-12-07T12:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": null,
+    "slotsLeft": 12
+  },
+  {
+    "id": 18925728,
+    "name": "Spin intervall",
+    "duration": {
+      "start": "2022-12-07T10:30:00.000Z",
+      "end": "2022-12-07T11:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-30T12:00:00.000Z",
+    "slotsLeft": 36
+  },
+  {
+    "id": 18928261,
+    "name": "Yoga soft",
+    "duration": {
+      "start": "2022-12-07T10:30:00.000Z",
+      "end": "2022-12-07T11:45:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-30T12:15:00.000Z",
+    "slotsLeft": 148
+  },
+  {
+    "id": 19020555,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-07T11:00:00.000Z",
+      "end": "2022-12-07T12:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-30T12:30:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18925748,
+    "name": "Jympa intensiv",
+    "duration": {
+      "start": "2022-12-07T15:30:00.000Z",
+      "end": "2022-12-07T16:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-30T17:00:00.000Z",
+    "slotsLeft": 148
+  },
+  {
+    "id": 18996627,
+    "name": "Löpning distans",
+    "duration": {
+      "start": "2022-12-07T16:00:00.000Z",
+      "end": "2022-12-07T17:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-30T17:30:00.000Z",
+    "slotsLeft": 28
+  },
+  {
+    "id": 18925767,
+    "name": "Skivstång soft",
+    "duration": {
+      "start": "2022-12-07T16:00:00.000Z",
+      "end": "2022-12-07T17:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-30T17:30:00.000Z",
+    "slotsLeft": 35
+  },
+  {
+    "id": 18925789,
+    "name": "HIT",
+    "duration": {
+      "start": "2022-12-07T16:30:00.000Z",
+      "end": "2022-12-07T17:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-30T18:00:00.000Z",
+    "slotsLeft": 46
+  },
+  {
+    "id": 18925810,
+    "name": "Spin spurt",
+    "duration": {
+      "start": "2022-12-07T16:30:00.000Z",
+      "end": "2022-12-07T17:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-30T18:00:00.000Z",
+    "slotsLeft": 36
+  },
+  {
+    "id": 18925828,
+    "name": "Coreflex",
+    "duration": {
+      "start": "2022-12-07T17:00:00.000Z",
+      "end": "2022-12-07T18:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-30T18:30:00.000Z",
+    "slotsLeft": 35
+  },
+  {
+    "id": 18925847,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-07T17:30:00.000Z",
+      "end": "2022-12-07T18:30:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-30T19:00:00.000Z",
+    "slotsLeft": 148
+  },
+  {
+    "id": 18925866,
+    "name": "Cirkelfys",
+    "duration": {
+      "start": "2022-12-07T18:00:00.000Z",
+      "end": "2022-12-07T19:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-30T19:30:00.000Z",
+    "slotsLeft": 43
+  },
+  {
+    "id": 18930639,
+    "name": "Gyminstruktion",
+    "duration": {
+      "start": "2022-12-07T18:00:00.000Z",
+      "end": "2022-12-07T19:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-30T19:30:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18925885,
+    "name": "Spin intervall",
+    "duration": {
+      "start": "2022-12-07T18:00:00.000Z",
+      "end": "2022-12-07T19:00:00.000Z"
+    },
+    "place": "Väderkvarn",
+    "bookableEarliest": "2022-11-30T19:30:00.000Z",
+    "slotsLeft": 36
+  },
+  {
+    "id": 18921417,
+    "name": "Yoga energy",
+    "duration": {
+      "start": "2022-12-06T18:30:00.000Z",
+      "end": "2022-12-06T19:45:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-29T20:15:00.000Z",
+    "slotsLeft": 38
+  },
+  {
+    "id": 18945305,
+    "name": "Spin intervall",
+    "duration": {
+      "start": "2022-12-07T06:00:00.000Z",
+      "end": "2022-12-07T06:45:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-30T07:15:00.000Z",
+    "slotsLeft": 28
+  },
+  {
+    "id": 18951122,
+    "name": "Mammapower",
+    "duration": {
+      "start": "2022-12-07T08:30:00.000Z",
+      "end": "2022-12-07T09:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-30T10:00:00.000Z",
+    "slotsLeft": 16
+  },
+  {
+    "id": 18921438,
+    "name": "Seniorklubben",
+    "duration": {
+      "start": "2022-12-07T08:30:00.000Z",
+      "end": "2022-12-07T09:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-30T10:00:00.000Z",
+    "slotsLeft": 28
+  },
+  {
+    "id": 18921454,
+    "name": "Power hour soft",
+    "duration": {
+      "start": "2022-12-07T09:30:00.000Z",
+      "end": "2022-12-07T10:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-30T11:00:00.000Z",
+    "slotsLeft": 28
+  },
+  {
+    "id": 18944682,
+    "name": "Spin distans watt",
+    "duration": {
+      "start": "2022-12-07T10:30:00.000Z",
+      "end": "2022-12-07T11:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-30T12:00:00.000Z",
+    "slotsLeft": 28
+  },
+  {
+    "id": 19027674,
+    "name": "Pass i gymmet",
+    "duration": {
+      "start": "2022-12-07T11:00:00.000Z",
+      "end": "2022-12-07T11:35:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-30T12:05:00.000Z",
+    "slotsLeft": 6
+  },
+  {
+    "id": 19003477,
+    "name": "Träningskompis tonår",
+    "duration": {
+      "start": "2022-12-07T14:30:00.000Z",
+      "end": "2022-12-07T15:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-07T06:00:00.000Z",
+    "slotsLeft": 1
+  },
+  {
+    "id": 18973184,
+    "name": "Träningsinspiratör tonår",
+    "duration": {
+      "start": "2022-12-07T15:30:00.000Z",
+      "end": "2022-12-07T16:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-30T17:00:00.000Z",
+    "slotsLeft": 0
+  },
+  {
+    "id": 18921475,
+    "name": "Multifys",
+    "duration": {
+      "start": "2022-12-07T16:00:00.000Z",
+      "end": "2022-12-07T17:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-30T17:30:00.000Z",
+    "slotsLeft": 108
+  },
+  {
+    "id": 18921494,
+    "name": "Coreflex",
+    "duration": {
+      "start": "2022-12-07T16:30:00.000Z",
+      "end": "2022-12-07T17:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-30T18:00:00.000Z",
+    "slotsLeft": 48
+  },
+  {
+    "id": 18970580,
+    "name": "Spin intervall",
+    "duration": {
+      "start": "2022-12-07T16:30:00.000Z",
+      "end": "2022-12-07T17:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-30T18:00:00.000Z",
+    "slotsLeft": 28
+  },
+  {
+    "id": 18921519,
+    "name": "Jympa",
+    "duration": {
+      "start": "2022-12-07T17:00:00.000Z",
+      "end": "2022-12-07T18:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-30T18:30:00.000Z",
+    "slotsLeft": 108
+  },
+  {
+    "id": 18921537,
+    "name": "Spin distans",
+    "duration": {
+      "start": "2022-12-07T17:30:00.000Z",
+      "end": "2022-12-07T18:30:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-30T19:00:00.000Z",
+    "slotsLeft": 28
+  },
+  {
+    "id": 18921557,
+    "name": "Cirkelfys",
+    "duration": {
+      "start": "2022-12-07T18:00:00.000Z",
+      "end": "2022-12-07T19:00:00.000Z"
+    },
+    "place": "Ultuna",
+    "bookableEarliest": "2022-11-30T19:30:00.000Z",
+    "slotsLeft": 43
+  }
+]
