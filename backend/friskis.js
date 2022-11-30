@@ -8,8 +8,6 @@ function hämtaPass(date) {
     const datum_start = date.toISOString()
     const datum_slut = addDays(date, 1).toISOString()
 
-    return dev // TODO: dev data. Remove in prod
-
     const fetches = avdelningar.map((avdelning) =>
         new Promise(async (resolve, reject) => {
             const url = `https://friskissvettis.brpsystems.com/brponline/api/ver3/businessunits/${avdelning}/groupactivities?period.start=${datum_start}&period.end=${datum_slut}`
@@ -35,4 +33,57 @@ function hämtaPass(date) {
         )
 }
 
-module.exports = { hämtaPass }
+async function loginUser(user) {
+    if (!user.email || !user.password) return false
+
+    const url = 'https://friskissvettis.brpsystems.com/brponline/api/ver3/auth/login'
+
+    try {
+        const login = await fetch(url, {
+            method: 'POST',
+            body: JSON.stringify({
+                username: user.email,
+                password: user.password
+            })
+        })
+        const response = await login.json()
+        
+        return {
+            username: response.username,
+            token: response.access_token
+        }
+    } catch (err) {
+        return false
+    }
+}
+
+async function book(todo, user) {
+    const url = 'https://friskissvettis.brpsystems.com/brponline/api/ver3/customers/' + user.username + '/bookings/groupactivities'
+
+    try {
+        const booking = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Authorization': 'Bearer ' + user.token,
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                allowWaitingList: false,
+                groupActivity: todo.id
+            })
+        })
+        if (booking.status != 201) {
+            console.log('ERROR book():', booking)
+            return false
+        }
+
+        const response = await booking.json()
+        return response
+
+    } catch (err) {
+        console.log('ERROR book():', err)
+        return false
+    }
+}
+
+module.exports = { hämtaPass, loginUser, book }
