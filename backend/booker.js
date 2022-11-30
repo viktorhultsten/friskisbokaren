@@ -8,10 +8,10 @@ require('dotenv').config()
 const USER_CREDENTIALS = JSON.parse(process.env.USERS)
 
 // Schedule daily todo-maker
-cron.schedule('5 0 * * *', dailyCheck)
+cron.schedule('4 5 * * *', dailyCheck)
 
 // Schedule booker
-cron.schedule('*/15 * * * *', doBookings)
+cron.schedule('* * * * *', doBookings)
 
 function updateDB(newDB) {
   fs.writeFile('./db.json', JSON.stringify(newDB), (err) => {
@@ -116,9 +116,13 @@ async function doBookings() {
   
   const tokens = []
   
+  console.log('Users: ', users.length)
+
   for (let i = 0; i < users.length; i++) {
     const userCredentials = USER_CREDENTIALS.find((user) => user.name == users[i].name)
     const login = await friskis.loginUser(userCredentials)
+    console.log(users[i] + ' logged in: ' + login)
+
     if (!login) continue
 
     tokens.push({
@@ -128,11 +132,16 @@ async function doBookings() {
     })
   }
 
+  console.log('Logins complete')
+
   for (let i = 0; i < todos.length; i++) {
     const user = tokens.filter((t) => t.name == todos[i].user)[0]
+    console.log('Todo user found: ' + user?.username)
     if (!user) continue
     
     const booked = await friskis.book(todos[i], user)
+    console.log('Booking complete: ' + booked)
+
     if (!booked) {
       console.log('ERROR while booking:', todos[i], user.name)
     } else {
