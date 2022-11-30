@@ -11,7 +11,10 @@ const USER_CREDENTIALS = JSON.parse(process.env.USERS)
 cron.schedule('4 5 * * *', dailyCheck)
 
 // Schedule booker
-cron.schedule('* * * * *', doBookings)
+//cron.schedule('* * * * *', doBookings)
+
+dailyCheck()
+//doBookings()
 
 function updateDB(newDB) {
   fs.writeFile('./db.json', JSON.stringify(newDB), (err) => {

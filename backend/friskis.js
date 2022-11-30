@@ -34,7 +34,7 @@ function hämtaPass(date) {
 }
 
 async function loginUser(user) {
-    if (!user.email || !user.password) return false
+    if (!user.username || !user.password) return false
 
     const url = 'https://friskissvettis.brpsystems.com/brponline/api/ver3/auth/login'
 
@@ -42,7 +42,7 @@ async function loginUser(user) {
         const login = await fetch(url, {
             method: 'POST',
             body: JSON.stringify({
-                username: user.email,
+                username: user.username,
                 password: user.password
             })
         })
