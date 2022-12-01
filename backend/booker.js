@@ -11,9 +11,9 @@ const USER_CREDENTIALS = JSON.parse(process.env.USERS)
 cron.schedule('4 5 * * *', dailyCheck)
 
 // Schedule booker
-//cron.schedule('* * * * *', doBookings)
+cron.schedule('* * * * *', doBookings)
 
-dailyCheck()
+//dailyCheck()
 //doBookings()
 
 function updateDB(newDB) {
@@ -124,7 +124,6 @@ async function doBookings() {
   for (let i = 0; i < users.length; i++) {
     const userCredentials = USER_CREDENTIALS.find((user) => user.name == users[i].name)
     const login = await friskis.loginUser(userCredentials)
-    console.log(users[i] + ' logged in: ' + login)
 
     if (!login) continue
 
