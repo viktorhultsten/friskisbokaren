@@ -34,7 +34,7 @@ function hämtaPass(date) {
 }
 
 async function getBookings(user) {
-    const url = 'https://friskissvettis.brpsystems.com/brponline/api/ver3/customers/' + user.username +'/bookings/groupactivities'
+    const url = 'https://friskissvettis.brpsystems.com/brponline/api/ver3/customers/' + user.username + '/bookings/groupactivities'
     
     try {
         const api = await fetch(url, {

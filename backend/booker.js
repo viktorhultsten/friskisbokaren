@@ -25,45 +25,9 @@ function updateDB(newDB) {
   })
 }
 
-function addUser(user) {
-  if (!user.name) return false
-
-  const newUser = {
-    name: user.name,
-    wishes: [],
-    bookings: []
-  }
-
-  db.users.push(newUser)
-  updateDB(db)
-
-  return true
-}
-
-function addWish(username, wish) {
-  if (!username || username == '') return false
-  if (!wish.name || !wish.weekday || !wish.start_time || !wish.place) return false
-
-  // TODO: Check if wish already exists
-
-  const currentUser = db.users.find((user) => user.name.toLowerCase() == username.toLowerCase())
-  currentUser.wishes.push(wish)
-  updateDB(db)
-
-  return true
-}
-
-function removeWish(user, wish) {
-  // TODO: Complete function
-  return
-}
-
 async function dailyCheck() {
   console.log('Running: dailyCheck() - ' + new Date())
   const monday = startOfWeek(new Date(), { weekStartsOn: 1 })
-  /*const weekdays = [...new Set(db.users.map((user) => 
-    user.wishes.map((wish) => wish.weekday)
-  ).flat())]*/
   
   let schedule = []
   for (let i = 0; i < 8; i++) {
