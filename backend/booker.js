@@ -8,13 +8,14 @@ require('dotenv').config()
 const USER_CREDENTIALS = JSON.parse(process.env.USERS)
 
 // Schedule daily todo-maker
-cron.schedule('4 5 * * *', dailyCheck)
+//cron.schedule('4 5 * * *', dailyCheck)
 
 // Schedule booker
-cron.schedule('* * * * *', doBookings)
+//cron.schedule('* * * * *', doBookings)
 
 //dailyCheck()
-//doBookings()
+
+
 
 function updateDB(newDB) {
   fs.writeFile('./db.json', JSON.stringify(newDB), (err) => {
@@ -60,11 +61,9 @@ function removeWish(user, wish) {
 async function dailyCheck() {
   console.log('Running: dailyCheck() - ' + new Date())
   const monday = startOfWeek(new Date(), { weekStartsOn: 1 })
-  const weekdays = [...new Set(db.users.map((user) => 
+  /*const weekdays = [...new Set(db.users.map((user) => 
     user.wishes.map((wish) => wish.weekday)
-  ).flat())]
-
-  //const dates = weekdays.map((weekday) => add(monday, { days: weekday}))
+  ).flat())]*/
   
   let schedule = []
   for (let i = 0; i < 8; i++) {
@@ -109,32 +108,60 @@ async function dailyCheck() {
   console.log('Complete: dailyCheck() - ' + new Date())
 }
 
+async function filterBookedBookings(users, todos) {  
+  for (let i = 0; i < users.length; i++) {
+    const bookings = await friskis.getBookings(users[i])
+    users[i].bookings = bookings
+  }
+
+  console.log(users)
+
+  filteredTodos = todos.filter((t) => {
+    for (let i = 0; i < users.length; i++) {
+      if (users[i].bookings.includes(t.id)) return false
+    }
+
+    return true
+  })
+
+  console.log(filteredTodos)
+
+  return filteredTodos
+}
+
+doBookings()
+
 async function doBookings() {
   console.log('Running: doBookings() - ' + new Date())
   const now = new Date()
 
-  const todos = db.todo.filter((todo) => now > new Date(todo.bookableEarliest))
-  console.log('Todos length:', todos.length)
+  let todos = db.todo.filter((todo) => now > new Date(todo.bookableEarliest))
   const users = [...new Set(todos.map((todo) => todo.user))].map((user) => db.users.find((storedUser) => storedUser.name == user))
   
   const tokens = []
   
   console.log('Users: ', users.length)
-
+  
   for (let i = 0; i < users.length; i++) {
     const userCredentials = USER_CREDENTIALS.find((user) => user.name == users[i].name)
     const login = await friskis.loginUser(userCredentials)
-
+    
     if (!login) continue
-
+    
     tokens.push({
       name: users[i].name,
       username: login.username,
       token: login.token
     })
+    
+    users[i].username = login.username
+    users[i].token = login.token
   }
-
   console.log('Logins complete')
+  
+  todos = await filterBookedBookings(users, todos)
+  console.log('Todos length:', todos.length)
+
 
   for (let i = 0; i < todos.length; i++) {
     const user = tokens.filter((t) => t.name == todos[i].user)[0]

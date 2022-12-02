@@ -33,8 +33,34 @@ function hämtaPass(date) {
         )
 }
 
+async function getBookings(user) {
+    const url = 'https://friskissvettis.brpsystems.com/brponline/api/ver3/customers/' + user.username +'/bookings/groupactivities'
+    
+    try {
+        const api = await fetch(url, {
+            method: 'GET',
+            headers: {
+                'Authorization': 'Bearer ' + user.token
+            },
+        })
+
+        if (api.status == 200) {
+            const result = await api.json()
+            return result.map((booking) => booking.groupActivity.id)
+        }
+    } catch (err) {
+        console.log('Could not get bookings from user ', user)
+        console.error(err)
+        return 
+    }
+}
+
 async function loginUser(user) {
-    if (!user.username || !user.password) return false
+    console.log('loginUser: trying to login')
+    if (!user.email || !user.password) {
+        console.log('loginUser: user.username or user.password not found')
+        return false
+    }
 
     const url = 'https://friskissvettis.brpsystems.com/brponline/api/ver3/auth/login'
 
@@ -42,7 +68,7 @@ async function loginUser(user) {
         const login = await fetch(url, {
             method: 'POST',
             body: JSON.stringify({
-                username: user.username,
+                username: user.email,
                 password: user.password
             })
         })
@@ -53,6 +79,7 @@ async function loginUser(user) {
             token: response.access_token
         }
     } catch (err) {
+        console.log('loginUser: ERROR:' + err)
         return false
     }
 }
@@ -86,4 +113,4 @@ async function book(todo, user) {
     }
 }
 
-module.exports = { hämtaPass, loginUser, book }
+module.exports = { hämtaPass, loginUser, book, getBookings }

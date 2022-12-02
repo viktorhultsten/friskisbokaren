@@ -2,19 +2,12 @@ require('dotenv').config()
 const express = require('express')
 const app = express()
 const PORT = process.env.PORT || 3000
-const friskis = require('./friskis')
 const cors = require('cors')
 
 app.use(express.json())
 app.use(cors())
 
 
-app.get('/pass/:date', async (req, res) => {
-    const date = new Date(req.params.date)
-    const pass = await friskis.hämtaPass(date)
-    const alternatives = [...new Set(pass.map((p) => p.name))]
-    return res.json({alternatives, pass})
-})
 
 app.use((req, res, next) => {
     const error = new Error('Not found')

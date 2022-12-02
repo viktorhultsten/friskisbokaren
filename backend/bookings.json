@@ -1,0 +1,40 @@
+[
+  {
+    "name": "viktor",
+    "wishes": [
+      {
+        "name": "box",
+        "weekday": 0,
+        "start_time": [
+          18,
+          30
+        ],
+        "place": "stallet"
+      }
+    ],
+    "username": "741045",
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3NDEwNDUiLCJleHAiOjE2NzA1MzUxODQsImlhdCI6MTY2OTkzMDM4NCwicm9sZXMiOlsiUk9MRV9DVVNUT01FUiJdfQ.QAsNm-2dn3YjKl6_Vx3kBA9_iM1K-h-Gz5GpBlpo3Cc",
+    "bookings": [
+      19695026
+    ]
+  },
+  {
+    "name": "emma",
+    "wishes": [
+      {
+        "name": "box",
+        "weekday": 0,
+        "start_time": [
+          18,
+          30
+        ],
+        "place": "stallet"
+      }
+    ],
+    "bookings": [
+      19694551
+    ],
+    "username": "741050",
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3NDEwNTAiLCJleHAiOjE2NzA1MzUxODUsImlhdCI6MTY2OTkzMDM4NSwicm9sZXMiOlsiUk9MRV9DVVNUT01FUiJdfQ.WtcGVkCHIQAhK0PkrvDiX5sZCEhgmjZb0kRWge4sXLo"
+  }
+]
