@@ -1,4 +1,4 @@
-require('dotenv').config()
+if (process.env.NODE_ENV !== 'production') require('dotenv').config()
 const db = require('./db')
 const fs = require('fs')
 const friskis = require('./friskis')
