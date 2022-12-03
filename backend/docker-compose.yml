@@ -1,7 +1,7 @@
 services:
   app:
-    build:
-      context: .
+    build: .
+    image: friskisbokaren:1.0
     env_file:
       - .env
     container_name: friskisbokaren
