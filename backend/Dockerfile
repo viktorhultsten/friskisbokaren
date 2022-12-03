@@ -3,7 +3,7 @@ ENV NODE_ENV=production
 WORKDIR /app
 
 COPY package*.json .
-CMD npm install --production
+RUN npm install --production
 COPY . .
 
 CMD ["node", "booker.js"]
