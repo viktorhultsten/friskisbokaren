@@ -1,147 +1,123 @@
+require('dotenv').config()
 const db = require('./db')
 const fs = require('fs')
 const friskis = require('./friskis')
-const { startOfWeek, format, add } = require('date-fns')
+const { startOfWeek, add } = require('date-fns')
 const cron = require('node-cron')
-require('dotenv').config()
+const { store } = require('./utils')
 
 const USER_CREDENTIALS = JSON.parse(process.env.USERS)
 
-// Schedule daily todo-maker
-//cron.schedule('4 5 * * *', dailyCheck)
+// TODO: crontab updateAllBookings()
+cron.schedule('4 5 * * *', updateAllBookings())
 
-// Schedule booker
-//cron.schedule('* * * * *', doBookings)
+// TODO: crontab makeAllBookings()
+cron.schedule('*/15 * * * *', makeAllBookings())
 
-//dailyCheck()
+async function getWorkouts() {
+  let tomorrow = new Date()
+  tomorrow.setHours(0, 0, 0)
+  tomorrow = add(tomorrow, { days: 1 })
 
-
-
-function updateDB(newDB) {
-  fs.writeFile('./db.json', JSON.stringify(newDB), (err) => {
-    if (err) {
-      console.error(err)
-    }
-  })
-}
-
-async function dailyCheck() {
-  console.log('Running: dailyCheck() - ' + new Date())
-  const monday = startOfWeek(new Date(), { weekStartsOn: 1 })
-  
-  let schedule = []
-  for (let i = 0; i < 8; i++) {
-    const date = add(monday, { days: i })
-    const res = await friskis.hämtaPass(date)
-    schedule.push(res)
+  const workouts = []
+  for (let i = 0; i < 7; i++) {
+    const day = add(tomorrow, { days: i })
+    const workoutsOfDay = await friskis.hämtaPass(day)
+    workouts.push(...workoutsOfDay)
   }
 
-  list = schedule.flat()
+  return workouts
+}
 
-  db.todo = []
+function compareWishAndWorkout(wish, workout) {
+  const workoutDate = new Date(workout.duration.start)
+  const monday = startOfWeek(workoutDate, { weekStartsOn: 1 })
+  const wishDate = add(monday, { days: wish.weekday })
+  wishDate.setHours(wish.start_time[0], wish.start_time[1], 0)
 
-  db.users.forEach((user) => {
-    user.wishes.forEach((wish) => {
-      const todo = list.filter((l) => (
-        l.name.toLowerCase() == wish.name.toLowerCase() &&
-        l.place.toLowerCase() == wish.place.toLowerCase() &&
-        new Date() < new Date(l.duration.start)
-      ))
-      .filter((l) => {
-        const bookDate = new Date(l.duration.start)
+  return (
+    wish.name.toLowerCase() == workout.name.toLowerCase() &&
+    wish.place.toLowerCase() == workout.place.toLowerCase() &&
+    workoutDate.getTime() == wishDate.getTime()
+  )
+}
 
-        const wishDate = add(monday, { days: wish.weekday })
-        wishDate.setHours(wish.start_time[0], wish.start_time[1], 0)
+async function updateUserBookings(USER, workouts) {
+  const login = await friskis.loginUser(USER.email, USER.password)
+  if (!login) {
+    console.log(`Cannot login user ${USER.name}`)
+    return
+  }
+  
+  const bookings = await friskis.getBookings(login.userId, login.token)
+  if (bookings.length >= 5) {
+    console.log(`User ${USER.name} has too many bookings already (${bookings.length})`)
+    return
+  }
 
-        return (
-          bookDate.getTime() == wishDate.getTime() ||
-          bookDate.getTime() == (add(wishDate, { days: 7}).getTime())
-        )
-      })
-      .map((l) => ({
-        id: l.id,
-        user: user.name,
-        bookableEarliest: l.bookableEarliest
+  const wishes = db.users.find((user) => user.name == USER.name).wishes
+  wishes.forEach((wish) => {
+    const todo = workouts
+      .filter((workout) => compareWishAndWorkout(wish, workout))
+      .filter((workout) => false === bookings.includes(workout.id))
+      .map((workout) => ({
+        id: workout.id,
+        user: USER.name,
+        bookableEarliest: workout.bookableEarliest
       }))
 
+    if (todo.length == 1) {
       db.todo.push(todo[0])
-    })
-  })
-
-  updateDB(db)
-  console.log('Complete: dailyCheck() - ' + new Date())
-}
-
-async function filterBookedBookings(users, todos) {  
-  for (let i = 0; i < users.length; i++) {
-    const bookings = await friskis.getBookings(users[i])
-    users[i].bookings = bookings
-  }
-
-  console.log(users)
-
-  filteredTodos = todos.filter((t) => {
-    for (let i = 0; i < users.length; i++) {
-      if (users[i].bookings.includes(t.id)) return false
     }
-
-    return true
   })
-
-  console.log(filteredTodos)
-
-  return filteredTodos
+  store(db)
 }
 
-doBookings()
+async function updateAllBookings() {
+  console.log(`updateAllBookings(): started ${new Date()}`)
+  const workouts = await getWorkouts()
+  db.todo = []
+  store(db)
 
-async function doBookings() {
-  console.log('Running: doBookings() - ' + new Date())
+  USER_CREDENTIALS.forEach((USER) => {
+    updateUserBookings(USER, workouts)
+  })
+  console.log(`updateAllBookings(): completed ${new Date()}`)
+}
+
+async function makeAllBookings() {
+  console.log(`makeAllBookings(): started ${new Date()}`)
   const now = new Date()
+  const bookableTodos = db.todo.filter((todo) => now > new Date(todo.bookableEarliest))
+  if (bookableTodos.length == 0) return
 
-  let todos = db.todo.filter((todo) => now > new Date(todo.bookableEarliest))
-  const users = [...new Set(todos.map((todo) => todo.user))].map((user) => db.users.find((storedUser) => storedUser.name == user))
-  
-  const tokens = []
-  
-  console.log('Users: ', users.length)
-  
+  const users = [...new Set(bookableTodos.map((todo) => todo.user))].map((username) => ({
+    name: username,
+    userId: '',
+    token: ''
+  }))
+
   for (let i = 0; i < users.length; i++) {
-    const userCredentials = USER_CREDENTIALS.find((user) => user.name == users[i].name)
-    const login = await friskis.loginUser(userCredentials)
-    
+    const credentials = USER_CREDENTIALS.find((user) => user.name == users[i].name)
+    const login = await friskis.loginUser(credentials.email, credentials.password)
     if (!login) continue
     
-    tokens.push({
-      name: users[i].name,
-      username: login.username,
-      token: login.token
-    })
-    
-    users[i].username = login.username
+    users[i].userId = login.userId
     users[i].token = login.token
   }
-  console.log('Logins complete')
   
-  todos = await filterBookedBookings(users, todos)
-  console.log('Todos length:', todos.length)
+  for (let i = 0; i < bookableTodos.length; i++) {
+    const user = users.find((user) => user.name == bookableTodos[i].user)
+    if (!user.userId) continue
 
+    const booked = await friskis.book(bookableTodos[i], user)
+    console.log(`Booking complete: ${booked}`)
 
-  for (let i = 0; i < todos.length; i++) {
-    const user = tokens.filter((t) => t.name == todos[i].user)[0]
-    console.log('Todo user found: ' + user?.username)
-    if (!user) continue
-    
-    const booked = await friskis.book(todos[i], user)
-    console.log('Booking complete: ' + booked)
-
-    if (!booked) {
-      console.log('ERROR while booking:', todos[i], user.name)
-    } else {
-      db.todo = db.todo.filter((todo) => todo.id !== todos[i].id)
+    if (booked) {
+      db.todo = db.todo.filter((todo) => todo.id !== bookableTodos[i].id)
     }
   }
 
-   updateDB(db)
-   console.log('Complete: doBookings() - ' + new Date())
+  store(db)
+  console.log(`makeAllBookings(): completed ${new Date()}`)
 }

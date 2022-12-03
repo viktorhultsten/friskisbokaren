@@ -1,22 +1,21 @@
-const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
-const { addDays } = require('./utils')
-const dev = require('./data/test')
+const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
+const { add } = require('date-fns')
 
 const avdelningar = [6184, 6186, 6185, 6188, 6187]
 
 function hämtaPass(date) {
     const datum_start = date.toISOString()
-    const datum_slut = addDays(date, 1).toISOString()
+    const datum_slut = add(date, { days: 1 })
 
     const fetches = avdelningar.map((avdelning) =>
         new Promise(async (resolve, reject) => {
             const url = `https://friskissvettis.brpsystems.com/brponline/api/ver3/businessunits/${avdelning}/groupactivities?period.start=${datum_start}&period.end=${datum_slut}`
             fetch(url)
-            .then((api) => api.json())
-            .then((result) => resolve(result))
+                .then((api) => api.json())
+                .then((result) => resolve(result))
         }
-    ))
-    
+        ))
+
     return Promise
         .allSettled(fetches)
         .then((promises) => promises
@@ -33,14 +32,14 @@ function hämtaPass(date) {
         )
 }
 
-async function getBookings(user) {
-    const url = 'https://friskissvettis.brpsystems.com/brponline/api/ver3/customers/' + user.username + '/bookings/groupactivities'
-    
+async function getBookings(userId, token) {
+    const url = 'https://friskissvettis.brpsystems.com/brponline/api/ver3/customers/' + userId + '/bookings/groupactivities'
+
     try {
         const api = await fetch(url, {
             method: 'GET',
             headers: {
-                'Authorization': 'Bearer ' + user.token
+                'Authorization': 'Bearer ' + token
             },
         })
 
@@ -51,13 +50,13 @@ async function getBookings(user) {
     } catch (err) {
         console.log('Could not get bookings from user ', user)
         console.error(err)
-        return 
+        return
     }
 }
 
-async function loginUser(user) {
+async function loginUser(email, password) {
     console.log('loginUser: trying to login')
-    if (!user.email || !user.password) {
+    if (!email || !password) {
         console.log('loginUser: user.username or user.password not found')
         return false
     }
@@ -68,14 +67,14 @@ async function loginUser(user) {
         const login = await fetch(url, {
             method: 'POST',
             body: JSON.stringify({
-                username: user.email,
-                password: user.password
+                username: email,
+                password: password
             })
         })
         const response = await login.json()
-        
+
         return {
-            username: response.username,
+            userId: response.username,
             token: response.access_token
         }
     } catch (err) {
@@ -85,7 +84,7 @@ async function loginUser(user) {
 }
 
 async function book(todo, user) {
-    const url = 'https://friskissvettis.brpsystems.com/brponline/api/ver3/customers/' + user.username + '/bookings/groupactivities'
+    const url = 'https://friskissvettis.brpsystems.com/brponline/api/ver3/customers/' + user.userId + '/bookings/groupactivities'
 
     try {
         const booking = await fetch(url, {
@@ -95,18 +94,19 @@ async function book(todo, user) {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                allowWaitingList: false,
+                allowWaitingList: true,
                 groupActivity: todo.id
             })
         })
-        if (booking.status != 201) {
+        if (booking.status == 403) {
+            console.log('Probably fully boooked', booking)
+            return true
+        } else if (booking.status == 201) {
+            return true
+        } else {
             console.log('ERROR book():', booking)
             return false
         }
-
-        const response = await booking.json()
-        return response
-
     } catch (err) {
         console.log('ERROR book():', err)
         return false
