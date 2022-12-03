@@ -2,7 +2,7 @@ FROM node:latest
 ENV NODE_ENV=production
 WORKDIR /app
 
-COPY package*.json
+COPY package*.json .
 CMD npm install --production
 COPY . .
 
