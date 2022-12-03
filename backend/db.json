@@ -26,25 +26,49 @@
           ],
           "place": "stallet"
         }
-      ],
-      "bookings": []
+      ]
     },
     {
       "name": "malin",
-      "wishes": [],
-      "bookings": []
+      "wishes": [
+        {
+          "name": "spin distans",
+          "weekday": 1,
+          "start_time": [
+            7,
+            15
+          ],
+          "place": "ekeby"
+        },
+        {
+          "name": "skivstång",
+          "weekday": 2,
+          "start_time": [
+            11,
+            0
+          ],
+          "place": "ekeby"
+        },
+        {
+          "name": "skivstång",
+          "weekday": 5,
+          "start_time": [
+            14,
+            30
+          ],
+          "place": "ekeby"
+        },
+        {
+          "name": "spin distans",
+          "weekday": 6,
+          "start_time": [
+            10,
+            0
+          ],
+          "place": "ekeby"
+        }
+      ]
     }
   ],
-  "todo": [
-    {
-      "id": 18991274,
-      "user": "viktor",
-      "bookableEarliest": "2022-11-28T19:00:00.000Z"
-    },
-    {
-      "id": 18991274,
-      "user": "emma",
-      "bookableEarliest": "2022-11-28T19:00:00.000Z"
-    }
-  ]
+  "todo": []
 }
