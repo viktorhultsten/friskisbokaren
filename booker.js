@@ -42,6 +42,15 @@ function compareWishAndWorkout(wish, workout) {
   )
 }
 
+function alreadyBookedBefore(USER, workout) {
+  const existsBooking = db.booked.filter((booking) => (
+    booking.user == USER.name &&
+    booking.id == workout.id
+  )).length === 1
+
+  return existsBooking
+}
+
 async function updateUserBookings(USER, workouts) {
   const login = await friskis.loginUser(USER.email, USER.password)
   if (!login) {
@@ -59,17 +68,25 @@ async function updateUserBookings(USER, workouts) {
   wishes.forEach((wish) => {
     const todo = workouts
       .filter((workout) => compareWishAndWorkout(wish, workout))
+      .filter((workout) => false === alreadyBookedBefore(USER, workout))
       .filter((workout) => false === bookings.includes(workout.id))
       .map((workout) => ({
         id: workout.id,
         user: USER.name,
-        bookableEarliest: workout.bookableEarliest
+        bookableEarliest: workout.bookableEarliest,
+        date: workout.duration.start
       }))
 
     if (todo.length == 1) {
       db.todo.push(todo[0])
     }
   })
+  store(db)
+}
+
+function cleanBooked() {
+  const now = new Date()
+  db.booked = db.booked.filter((booking) => now < new Date(booking.date))
   store(db)
 }
 
@@ -82,6 +99,9 @@ async function updateAllBookings() {
   USER_CREDENTIALS.forEach((USER) => {
     updateUserBookings(USER, workouts)
   })
+
+  cleanBooked()
+
   console.log(`updateAllBookings(): completed ${new Date()}`)
 }
 
@@ -118,6 +138,7 @@ async function makeAllBookings() {
 
     if (booked) {
       db.todo = db.todo.filter((todo) => todo.id !== bookableTodos[i].id)
+      db.booked.push(bookableTodos[i])
     }
   }
 
