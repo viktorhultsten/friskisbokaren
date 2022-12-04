@@ -57,7 +57,7 @@ async function getBookings(userId, token) {
 async function loginUser(email, password) {
     console.log('loginUser: trying to login')
     if (!email || !password) {
-        console.log('loginUser: user.username or user.password not found')
+        console.log('loginUser: email or password not found')
         return false
     }
 

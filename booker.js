@@ -89,7 +89,10 @@ async function makeAllBookings() {
   console.log(`makeAllBookings(): started ${new Date()}`)
   const now = new Date()
   const bookableTodos = db.todo.filter((todo) => now > new Date(todo.bookableEarliest))
-  if (bookableTodos.length == 0) return
+  if (bookableTodos.length == 0) {
+    console.log(`makeAllBookings(): completed (${bookableTodos.length} booked) ${new Date()}`)
+    return
+  }
 
   const users = [...new Set(bookableTodos.map((todo) => todo.user))].map((username) => ({
     name: username,
@@ -119,5 +122,5 @@ async function makeAllBookings() {
   }
 
   store(db)
-  console.log(`makeAllBookings(): completed ${new Date()}`)
+  console.log(`makeAllBookings(): completed (${bookableTodos.length} booked) ${new Date()}`)
 }
