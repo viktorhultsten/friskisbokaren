@@ -94,7 +94,7 @@ async function book(todo, user) {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                allowWaitingList: true,
+                allowWaitingList: false,
                 groupActivity: todo.id
             })
         })
