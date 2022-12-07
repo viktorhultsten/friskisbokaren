@@ -4,7 +4,7 @@ const fs = require('fs')
 const friskis = require('./friskis')
 const { startOfWeek, add } = require('date-fns')
 const cron = require('node-cron')
-const { store } = require('./utils')
+const { store, logger } = require('./utils')
 
 const USER_CREDENTIALS = JSON.parse(process.env.USERS)
 
@@ -52,15 +52,21 @@ function alreadyBookedBefore(USER, workout) {
 }
 
 async function updateUserBookings(USER, workouts) {
-  const login = await friskis.loginUser(USER.email, USER.password)
+  const { login, credentials, msg } = await friskis.loginUser(USER.email, USER.password)
   if (!login) {
-    console.log(`Cannot login user ${USER.name}`)
+    logger('updateUserBookings', msg)
     return
   }
   
-  const bookings = await friskis.getBookings(login.userId, login.token)
+  const { foundBookings, bookings, errorMsg } = await friskis.getBookings(credentials.userId, credentials.token)
+
+  if (!foundBookings) {
+    logger('updateUserBookings', errorMsg)
+    return
+  }
+
   if (bookings.length >= 5) {
-    console.log(`User ${USER.name} has too many bookings already (${bookings.length})`)
+    logger('updateUserBookings', `User '${USER.name}' already has five active bookings`)
     return
   }
 
@@ -91,7 +97,7 @@ function cleanBooked() {
 }
 
 async function updateAllBookings() {
-  console.log(`updateAllBookings(): started ${new Date()}`)
+  logger('updateAllBookings', 'Started')
   const workouts = await getWorkouts()
   db.todo = []
   store(db)
@@ -102,15 +108,15 @@ async function updateAllBookings() {
 
   cleanBooked()
 
-  console.log(`updateAllBookings(): completed ${new Date()}`)
+  logger('updateAllBookings', 'Completed')
 }
 
 async function makeAllBookings() {
-  console.log(`makeAllBookings(): started ${new Date()}`)
+  logger('makeAllBookings', 'Started')
   const now = new Date()
   const bookableTodos = db.todo.filter((todo) => now > new Date(todo.bookableEarliest))
   if (bookableTodos.length == 0) {
-    console.log(`makeAllBookings(): completed (${bookableTodos.length} booked) ${new Date()}`)
+    logger('makeAllBookings', `Completed. No bookings to do`)
     return
   }
 
@@ -121,27 +127,30 @@ async function makeAllBookings() {
   }))
 
   for (let i = 0; i < users.length; i++) {
-    const credentials = USER_CREDENTIALS.find((user) => user.name == users[i].name)
-    const login = await friskis.loginUser(credentials.email, credentials.password)
-    if (!login) continue
+    const storedCredentials = USER_CREDENTIALS.find((user) => user.name == users[i].name)
+    const { login, credentials, msg } = await friskis.loginUser(storedCredentials.email, storedCredentials.password)
+    if (!login) {
+      logger('makeAllBookings', msg)
+      continue
+    }
     
-    users[i].userId = login.userId
-    users[i].token = login.token
+    users[i].userId = credentials.userId
+    users[i].token = credentials.token
   }
   
   for (let i = 0; i < bookableTodos.length; i++) {
     const user = users.find((user) => user.name == bookableTodos[i].user)
     if (!user.userId) continue
 
-    const booked = await friskis.book(bookableTodos[i], user)
-    console.log(`Booking complete: ${booked}`)
+    const { isBooked, bookingMsg } = await friskis.book(bookableTodos[i], user)
+    logger('makeAllBookings', bookingMsg)
 
-    if (booked) {
+    if (isBooked) {
       db.todo = db.todo.filter((todo) => todo.id !== bookableTodos[i].id)
       db.booked.push(bookableTodos[i])
     }
   }
 
   store(db)
-  console.log(`makeAllBookings(): completed (${bookableTodos.length} booked) ${new Date()}`)
+  logger('makeAllBookings', `Completed. ${bookableTodos.length} bookings done`)
 }

@@ -45,20 +45,17 @@ async function getBookings(userId, token) {
 
         if (api.status == 200) {
             const result = await api.json()
-            return result.map((booking) => booking.groupActivity.id)
+            const bookings = result.map((booking) => booking.groupActivity.id)
+            return { foundBookings: true, bookings }
         }
     } catch (err) {
-        console.log('Could not get bookings from user ', user)
-        console.error(err)
-        return
+        return { foundBookings: false, bookings: null, errorMsg: 'Could not get bookings from user ' + user }
     }
 }
 
 async function loginUser(email, password) {
-    console.log('loginUser: trying to login')
     if (!email || !password) {
-        console.log('loginUser: email or password not found')
-        return false
+        return { login: false, msg: 'Email or password not found' }
     }
 
     const url = 'https://friskissvettis.brpsystems.com/brponline/api/ver3/auth/login'
@@ -74,12 +71,17 @@ async function loginUser(email, password) {
         const response = await login.json()
 
         return {
-            userId: response.username,
-            token: response.access_token
+            login: true,
+            credentials: {
+                userId: response.username,
+                token: response.access_token
+            }
         }
     } catch (err) {
-        console.log('loginUser: ERROR:' + err)
-        return false
+        return {
+            login: false,
+            msg: 'Something went wrong with the HTTP request'
+        }
     }
 }
 
@@ -99,17 +101,14 @@ async function book(todo, user) {
             })
         })
         if (booking.status == 403) {
-            console.log('Probably fully boooked', booking)
-            return true
+            return { isBooked: true, bookingMsg: 'Already full. Workout skipped' }
         } else if (booking.status == 201) {
-            return true
+            return { isBooked: true, bookingMsg: 'Booking successful' }
         } else {
-            console.log('ERROR book():', booking)
-            return false
+            return { isBooked: false, bookingMsg: 'The response code was not expected: ' + booking.status }
         }
     } catch (err) {
-        console.log('ERROR book():', err)
-        return false
+        return { isBooked: false, bookingMsg: 'Something went wrong with the HTTP request' }
     }
 }
 
