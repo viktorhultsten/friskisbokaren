@@ -66,6 +66,14 @@
             0
           ],
           "place": "ekeby"
+        },
+        {
+          "name": "spin intervall",
+          "weekday": 3,
+          "start_time": [
+            14, 0
+          ],
+          "place": "ekeby"
         }
       ]
     }
