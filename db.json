@@ -11,15 +11,6 @@
             30
           ],
           "place": "stallet"
-        },
-        {
-          "name": "spin distans",
-          "weekday": 6,
-          "start_time": [
-            10,
-            0
-          ],
-          "place": "ekeby"
         }
       ]
     },
