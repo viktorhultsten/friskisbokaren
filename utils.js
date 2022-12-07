@@ -9,15 +9,13 @@ function store(db) {
 }
 
 function logger(func, msg) {
-  if (process.env.LOGGING !== true) return
+  if (!process.env.LOGGING) return
 
   const now = new Date()
   const date = now.toLocaleDateString('sv-SE')
   const time = now.toLocaleTimeString('sv-SE')
 
-  const log = `
-    ${func}(): ${msg}. ${date} - ${time}
-  `
+  const log = `${func}(): ${msg}. ${date} - ${time}`
 
   console.log(log)
 }
