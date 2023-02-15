@@ -5,3 +5,5 @@ services:
     env_file:
       - .env
     container_name: friskisbokaren
+    volumes:
+      - ./db.json:/app/db.json:rw

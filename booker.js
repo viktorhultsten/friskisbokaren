@@ -1,4 +1,4 @@
-if (process.env.NODE_ENV !== 'production') require('dotenv').config()
+// if (process.env.NODE_ENV !== 'production') require('dotenv').config()
 const db = require('./db')
 const fs = require('fs')
 const friskis = require('./friskis')
@@ -9,10 +9,12 @@ const { store, logger } = require('./utils')
 const USER_CREDENTIALS = JSON.parse(process.env.USERS)
 
 // TODO: crontab updateAllBookings()
-cron.schedule('4 5 * * *', updateAllBookings)
+cron.schedule('0 0 * * *', updateAllBookings)
+
+updateAllBookings()
 
 // TODO: crontab makeAllBookings()
-cron.schedule('*/15 * * * *', makeAllBookings)
+// cron.schedule('*/15 * * * *', makeAllBookings)
 
 async function getWorkouts() {
   let tomorrow = new Date()
@@ -57,7 +59,7 @@ async function updateUserBookings(USER, workouts) {
     logger('updateUserBookings', msg)
     return
   }
-  
+
   const { foundBookings, bookings, errorMsg } = await friskis.getBookings(credentials.userId, credentials.token)
 
   if (!foundBookings) {
@@ -85,6 +87,7 @@ async function updateUserBookings(USER, workouts) {
 
     if (todo.length == 1) {
       db.todo.push(todo[0])
+      logger('updateUserBookings', `Added ${todo[0].id} to ${USER.name}`)
     }
   })
   store(db)
@@ -133,11 +136,11 @@ async function makeAllBookings() {
       logger('makeAllBookings', msg)
       continue
     }
-    
+
     users[i].userId = credentials.userId
     users[i].token = credentials.token
   }
-  
+
   for (let i = 0; i < bookableTodos.length; i++) {
     const user = users.find((user) => user.name == bookableTodos[i].user)
     if (!user.userId) continue
