@@ -8,13 +8,14 @@ const { store, logger } = require('./utils')
 
 const USER_CREDENTIALS = JSON.parse(process.env.USERS)
 
-// TODO: crontab updateAllBookings()
-cron.schedule('0 0 * * *', updateAllBookings)
-
+// Startup check
 updateAllBookings()
 
+// TODO: crontab updateAllBookings()
+cron.schedule('4 5 * * *', updateAllBookings)
+
 // TODO: crontab makeAllBookings()
-// cron.schedule('*/15 * * * *', makeAllBookings)
+cron.schedule('*/15 * * * *', makeAllBookings)
 
 async function getWorkouts() {
   let tomorrow = new Date()
