@@ -8,13 +8,8 @@ const { store, logger } = require('./utils')
 
 const USER_CREDENTIALS = JSON.parse(process.env.USERS)
 
-<<<<<<< HEAD
 // Startup check
 updateAllBookings()
-=======
-// TODO: crontab updateAllBookings()
-cron.schedule('4 5 * * *', updateAllBookings)
->>>>>>> 1bcbc3da4f97bc43fb66a60f06f5a8bd042f9fcf
 
 // TODO: crontab updateAllBookings()
 cron.schedule('4 5 * * *', updateAllBookings)
