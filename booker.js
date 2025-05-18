@@ -12,7 +12,7 @@ const USER_CREDENTIALS = JSON.parse(process.env.USERS)
 updateAllBookings()
 
 // TODO: crontab updateAllBookings()
-cron.schedule('4 5 * * *', updateAllBookings)
+cron.schedule('4 */3 * * *', updateAllBookings)
 
 // TODO: crontab makeAllBookings()
 cron.schedule('*/15 * * * *', makeAllBookings)

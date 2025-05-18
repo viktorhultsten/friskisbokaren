@@ -2,6 +2,7 @@ services:
   app:
     build: .
     image: friskisbokaren:1.0
+    restart: always
     env_file:
       - .env
     container_name: friskisbokaren

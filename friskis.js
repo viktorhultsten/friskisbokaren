@@ -5,7 +5,7 @@ const avdelningar = [6184, 6186, 6185, 6188, 6187]
 
 function hämtaPass(date) {
     const datum_start = date.toISOString()
-    const datum_slut = add(date, { days: 1 })
+    const datum_slut = add(date, { days: 1 }).toISOString()
 
     const fetches = avdelningar.map((avdelning) =>
         new Promise(async (resolve, reject) => {
@@ -63,6 +63,9 @@ async function loginUser(email, password) {
     try {
         const login = await fetch(url, {
             method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
             body: JSON.stringify({
                 username: email,
                 password: password
